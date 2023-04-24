@@ -12,9 +12,9 @@
                 foreach (var file in info.EnumerateFiles())
                 {
                     var oldname = file.Name;
-                    if (file.Name.StartsWith(toreplace))
+                    if (file.Name.StartsWith(toReplace))
                     {
-                        file.MoveTo(file.FullName.Replace(toreplace, ""));
+                        file.MoveTo(file.FullName.Replace(toReplace, ""));
                         Console.WriteLine($"{oldname} -> {file.Name}");
                     }
                 }
