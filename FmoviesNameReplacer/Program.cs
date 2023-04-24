@@ -5,7 +5,7 @@
         static void Main(string[] args)
         {
             var folder = "D:\\IDM\\Video";
-            var toreplace = "FMovies - Watch ";
+            var toReplace = "FMovies - Watch ";
             var info = new DirectoryInfo(folder);
             try
             {
