@@ -9,6 +9,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ImageResizze", "ImageResizz
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SequentialUniqueIDs", "SequentialUniqueIDs\SequentialUniqueIDs.csproj", "{915B40AF-A277-4122-A802-2BEE84609D39}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DatabaseIdGen", "DatabaseIdGen\DatabaseIdGen.csproj", "{489DF576-FB8B-4EC4-B361-41063CD3B4E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncEnumerableStreams", "AsyncEnumerableStreams\AsyncEnumerableStreams.csproj", "{DCFE9EB9-044C-402C-A32D-B87E05414854}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{915B40AF-A277-4122-A802-2BEE84609D39}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{915B40AF-A277-4122-A802-2BEE84609D39}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{915B40AF-A277-4122-A802-2BEE84609D39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{489DF576-FB8B-4EC4-B361-41063CD3B4E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{489DF576-FB8B-4EC4-B361-41063CD3B4E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{489DF576-FB8B-4EC4-B361-41063CD3B4E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{489DF576-FB8B-4EC4-B361-41063CD3B4E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCFE9EB9-044C-402C-A32D-B87E05414854}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCFE9EB9-044C-402C-A32D-B87E05414854}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCFE9EB9-044C-402C-A32D-B87E05414854}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCFE9EB9-044C-402C-A32D-B87E05414854}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
