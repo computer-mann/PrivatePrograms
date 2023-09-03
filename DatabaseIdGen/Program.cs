@@ -114,6 +114,7 @@ namespace DatabaseIdGen
         }
         static void GenNewIdId()
         {
+            Console.WriteLine("GenNewIdId");
             var ids = new List<NewId>();
             for (int i = 0; i < 15; i++)
             {
@@ -137,9 +138,7 @@ namespace DatabaseIdGen
                 // Console.WriteLine($"Guid no.{i} => {Guid.NewGuid()}");
             }
 
-            int count = 0;
-
-            ids.ForEach(guid => Console.WriteLine($"Guid no.{count++} => {guid}"));
+            
             Console.WriteLine("now sorting");
             var sorted = new List<Guid>(ids);
             sorted.Sort();
