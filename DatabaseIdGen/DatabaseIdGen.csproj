@@ -8,6 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Medo.Uuid7" Version="1.7.0" />
     <PackageReference Include="NewId" Version="4.0.1" />
     <PackageReference Include="NUlid" Version="1.7.1" />
     <PackageReference Include="RT.Comb" Version="4.0.1" />
