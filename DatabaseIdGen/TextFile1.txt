@@ -285,3 +285,8 @@ Guarantees order both timely,lexicographically and when special char removed
 2. https://www.nuget.org/packages/UUIDNext 32b
 3. https://www.nuget.org/packages/UuidExtensions 25b,32b
 4. https://www.nuget.org/packages/Medo.Uuid7/  32,36
+
+
+
+25bytes * 3 million rows for that primary key = 75Mb
+
