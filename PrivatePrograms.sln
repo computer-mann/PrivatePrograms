@@ -13,7 +13,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DatabaseIdGen", "DatabaseId
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AsyncEnumerableStreams", "AsyncEnumerableStreams\AsyncEnumerableStreams.csproj", "{DCFE9EB9-044C-402C-A32D-B87E05414854}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyDapperVsEfCoreBench", "MyDapperVsEfCoreBench\MyDapperVsEfCoreBench.csproj", "{F4A7F84D-7BC4-400C-9F97-ACBB4E97E652}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyDapperVsEfCoreBench", "MyDapperVsEfCoreBench\MyDapperVsEfCoreBench.csproj", "{F4A7F84D-7BC4-400C-9F97-ACBB4E97E652}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpanAndMemory", "SpanAndMemory\SpanAndMemory.csproj", "{A87C0579-1142-4E07-B682-1FAE73A2C494}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{F4A7F84D-7BC4-400C-9F97-ACBB4E97E652}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F4A7F84D-7BC4-400C-9F97-ACBB4E97E652}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F4A7F84D-7BC4-400C-9F97-ACBB4E97E652}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A87C0579-1142-4E07-B682-1FAE73A2C494}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A87C0579-1142-4E07-B682-1FAE73A2C494}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A87C0579-1142-4E07-B682-1FAE73A2C494}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A87C0579-1142-4E07-B682-1FAE73A2C494}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
