@@ -8,7 +8,8 @@ namespace ServerSentEvents.Endpoints
     {
         public static IEndpointRouteBuilder UseEventsEndpointRoutes(this IEndpointRouteBuilder builder)
         {
-            builder.MapGet("/sse/{pathed}",async (HttpContext context,[FromRoute]string pathed) =>
+            var group = builder.MapGroup("/privateprograms");
+            group.MapGet("/sse/{pathed}",async (HttpContext context,[FromRoute]string pathed) =>
             {
                 context.Response.Headers.Append("Content-Type", "text/event-stream");
 
@@ -22,7 +23,7 @@ namespace ServerSentEvents.Endpoints
             });
 
 
-            builder.MapGet("/weatherforecast", (HttpContext httpContext) =>
+            group.MapGet("/weatherforecast", (HttpContext httpContext) =>
             {
                 var summaries = new[]
            {
@@ -41,7 +42,7 @@ namespace ServerSentEvents.Endpoints
             })
             .WithName("GetWeatherForecast")
             .WithOpenApi();
-            return builder;
+            return group;
         }
     }
 }

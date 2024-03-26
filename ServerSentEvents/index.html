@@ -9,7 +9,7 @@
 <body>
     <script>
         function display() {
-            var source = new EventSource('https://localhost:7275/sse/browser');
+            var source = new EventSource('https://localhost:7275/privateprograms/sse/browser');
             source.onopen = function (e) {
                 console.log("sse connected on localhost");
             }
