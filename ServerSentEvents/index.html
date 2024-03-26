@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>SSE</title>
+</head>
+
+<body>
+    <script>
+        function display() {
+            var source = new EventSource('https://localhost:7275/sse/browser');
+            source.onopen = function (e) {
+                console.log("sse connected on localhost");
+            }
+            var ul = document.getElementById("sse");
+            source.onmessage = function (e) {
+                var li = document.createElement("li");
+                //var retrievedData = JSON.parse(e.data)
+                li.textContent = e.data;
+                ul.appendChild(li);
+               // console.log(e.data);
+            }
+        }
+        window.addEventListener("DOMContentLoaded", display, false);
+    </script>
+    <ul id="sse">
+    </ul>
+</body>
+</html>
