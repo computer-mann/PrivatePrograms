@@ -1,4 +1,5 @@
 
+using Carter;
 using ServerSentEvents.Endpoints;
 
 namespace ServerSentEvents
@@ -11,6 +12,7 @@ namespace ServerSentEvents
 
             // Add services to the container.
             builder.Services.AddAuthorization();
+            builder.Services.AddCarter();
             builder.Services.AddCors(options =>
             {
                 options.AddDefaultPolicy(policy =>
@@ -35,7 +37,7 @@ namespace ServerSentEvents
 
             app.UseAuthorization();
 
-            app.UseEventsEndpointRoutes();
+            app.MapCarter();
             
 
             app.Run();
