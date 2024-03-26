@@ -20,13 +20,19 @@ namespace ServerSentEvents.Endpoints
             {
                 context.Response.Headers.Append("Content-Type", "text/event-stream");
                 logger.LogInformation("the user agent is {agent}",pathed);
-                while (true)
+                int count = 10;
+                while (count > 0)
                 {
                     var json = JsonSerializer.Serialize(new { guid = Guid.NewGuid(), time = DateTime.Now, agent = pathed });
                     await context.Response.WriteAsync($"data: {json}\n\n");
                     await context.Response.Body.FlushAsync();
-                    await Task.Delay(3000);
+                    await Task.Delay(500);
+                    count--;
+
                 }
+                await context.Response.WriteAsync($"data: end\n\n");
+                await context.Response.Body.FlushAsync();
+                await context.Response.CompleteAsync();
             });
 
 

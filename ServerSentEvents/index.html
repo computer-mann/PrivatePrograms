@@ -19,8 +19,13 @@
                 //var retrievedData = JSON.parse(e.data)
                 li.textContent = e.data;
                 ul.appendChild(li);
+                if (e.data === "end") {
+                    console.log("closing connection");
+                    source.close();
+                }
                // console.log(e.data);
             }
+            
         }
         window.addEventListener("DOMContentLoaded", display, false);
     </script>
