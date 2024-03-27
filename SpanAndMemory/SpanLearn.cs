@@ -35,8 +35,8 @@ namespace SpanAndMemory
         {
             /*
              *       passenger_id        | book_ref |   ticket_no   
-------------------------------------------------------
- 0qpzc0vu6tn0vuy9g3jy0arg9 | FCC5B7   | 0005432000302
+                ------------------------------------------------------
+                 0qpzc0vu6tn0vuy9g3jy0arg9 | FCC5B7   | 0005432000302
              */
             //bookref=6,ticketno=13,passenger=25
             var csv = File.ReadLines(Path).Skip(2);
@@ -51,6 +51,15 @@ namespace SpanAndMemory
 
                 tickets[i] = new Ticket(passenger_name.ToString(), ticket_no.ToString(), book_ref.ToString());
             }
+            return tickets;
+        }
+
+        [Benchmark]
+        public Ticket[] Sep_CsvParser()
+        {
+            var csv = File.ReadLines(Path).Skip(2);
+            var csvCount = csv.Count();
+            var tickets = new Ticket[csvCount];
             return tickets;
         }
 
