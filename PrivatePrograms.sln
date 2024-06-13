@@ -21,7 +21,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ServerSentEvents", "ServerS
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NumOfDaysBetwwenDates", "NumOfDaysBetwwenDates\NumOfDaysBetwwenDates.csproj", "{702A6782-5D53-4D7C-93F5-CE0AD85E7EF6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListFolderNames", "ListFolderNames\ListFolderNames.csproj", "{1966A198-B5C7-4533-8D1F-D185C688AA9A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ListFolderNames", "ListFolderNames\ListFolderNames.csproj", "{1966A198-B5C7-4533-8D1F-D185C688AA9A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestingMapperly", "TestingMapperly\TestingMapperly.csproj", "{2F89015C-7376-4E14-BAFC-73EF609F064A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +71,10 @@ Global
 		{1966A198-B5C7-4533-8D1F-D185C688AA9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1966A198-B5C7-4533-8D1F-D185C688AA9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1966A198-B5C7-4533-8D1F-D185C688AA9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F89015C-7376-4E14-BAFC-73EF609F064A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F89015C-7376-4E14-BAFC-73EF609F064A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F89015C-7376-4E14-BAFC-73EF609F064A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F89015C-7376-4E14-BAFC-73EF609F064A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
