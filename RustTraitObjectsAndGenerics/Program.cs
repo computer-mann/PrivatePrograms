@@ -9,6 +9,12 @@
             foreach (var component in components) {
                 screen.display(component);
             }
+            //var components = new Draw[] { new Circle(), new Button() };
+            //var screen = new Screen<Circle>();
+            //foreach (var component in components)
+            //{
+            //    screen.display(component);
+            //}
         }
     }
     interface Draw {
@@ -19,6 +25,13 @@
             d.draw();
         }
     }
+    //class Screen<T> where T : Draw
+    //{
+    //    public void display(T d)
+    //    {
+    //        d.draw();
+    //    }
+    //}
     class Circle : Draw {
         public void draw() {
             Console.WriteLine("Circle");
