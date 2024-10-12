@@ -1,6 +1,11 @@
 ﻿using Riok.Mapperly.Abstractions;
+using System.Security.Cryptography;
 using System.Text.Json;
 using System.Text.Json.Serialization;
+using System;
+using System.IdentityModel.Tokens.Jwt;
+using System.Security.Cryptography;
+using Microsoft.IdentityModel.Tokens;
 
 namespace TestingMapperly
 {
@@ -8,76 +13,37 @@ namespace TestingMapperly
     {
         static void Main(string[] args)
         {
-            var json = "[{\"data\":{\"message\":\"adsds\",\"roomChannel\":\"music\"},\"time\":\"2024-09-25T15:37:17.582Z\",\"clientId\":\"Vk36bUdjH_lmXYh5AGBx\",\"source\":{\"platform\":\"web\",\"appName\":\"web-hubtel-chat\",\"appVersion\":\"1.0.0\",\"clientId\":\"Vk36bUdjH_lmXYh5AGBx\",\"userName\":\"prince\",\"channel\":\"music\"}}]";
-            List<ChatPayload> chatPayloads = JsonSerializer.Deserialize<List<ChatPayload>>(json);
-
-            // Access the data
-            foreach (var payload in chatPayloads)
-            {
-                Console.WriteLine($"Message: {payload.Data.Message}");
-                Console.WriteLine($"RoomChannel: {payload.Data.RoomChannel}");
-                Console.WriteLine($"UserName: {payload.Source.UserName}");
-            }
-            Console.WriteLine(json);
-            Console.WriteLine();
-            var fold = new ChatPayload
-            {
-                ClientId = "Vk36bUdjH_lmXYh5AGBx",
-                Data = new ChatData
-                {
-                    Message = "adsds",
-                    RoomChannel = "music"
-                },
-                Source = new Source
-                {
-                    Platform = "web",
-                    AppName = "web-hubtel-chat",
-                    AppVersion = "1.0.0",
-                    ClientId = "Vk36bUdjH_lmXYh5AGBx",
-                    UserName = "prince",
-                    Channel = "music"
-                },
-                Time = DateTime.Parse("2024-09-25T15:37:17.582Z")
-            };
-
-            Console.WriteLine(JsonSerializer.Serialize(fold));
+            Console.WriteLine(GenerateFiveYearToken());
         }
 
-
-        public class ChatPayload
+    public static string GenerateFiveYearToken()
+    {
+        var rsa = new RSAParameters
         {
-            [JsonPropertyName("data")]
-            public ChatData Data { get; set; }
-            [JsonPropertyName("time")]
-            public DateTime Time { get; set; }
-            [JsonPropertyName("clientId")]
-            public string ClientId { get; set; }
-            [JsonPropertyName("source")]
-            public Source Source { get; set; }
-        }
+            Exponent = Convert.FromBase64String("AQAB"),
+            Modulus = Convert.FromBase64String(
+                "tAHAfvtmGBng322TqUXF/Aar7726jFELj73lywuCvpGsh3JTpImuoSYsJxy5GZCRF7ppIIbsJBmWwSiesYfxWxBsfnpOmAHU3OTMDt383mf0USdqq/F0yFxBL9IQuDdvhlPfFcTrWEL0U2JsAzUjt9AfsPHNQbiEkOXlIwtNkqMP2naynW8y4WbaGG1n2NohyN6nfNb42KoNSR83nlbBJSwcc3heE3muTt3ZvbpguanyfFXeoP6yyqatnymWp/C0aQBEI5kDahOU641aDiSagG7zX1WaF9+hwfWCbkMDKYxeSWUkQOUOdfUQ89CQS5wrLpcU0D0xf7/SrRdY2TRHvQ==")
+        };
 
-        public class ChatData
+        var securityKey = new RsaSecurityKey(rsa)
         {
-            [JsonPropertyName("message")]
-            public string Message { get; set; }
-            [JsonPropertyName("roomChannel")]
-            public string RoomChannel { get; set; }
-        }
+            KeyId = "IdentityServerLicensekey/7ceadbb78130469e8806891025414f16"
+        };
 
-        public class Source
+        var credentials = new SigningCredentials(securityKey, SecurityAlgorithms.RsaSha256);
+
+        var tokenDescriptor = new SecurityTokenDescriptor
         {
-            [JsonPropertyName("platform")]
-            public string Platform { get; set; }
-            [JsonPropertyName("appName")]
-            public string AppName { get; set; }
-            [JsonPropertyName("appVersion")]
-            public string AppVersion { get; set; }
-            [JsonPropertyName("clientId")]
-            public string ClientId { get; set; }
-            [JsonPropertyName("userName")]
-            public string UserName { get; set; }
-            [JsonPropertyName("channel")]
-            public string Channel { get; set; }
-        }
+            Issuer = "https://duendesoftware.com",
+            Audience = "IdentityServer",
+            Expires = DateTime.UtcNow.AddYears(5),
+            SigningCredentials = credentials
+        };
+
+        var tokenHandler = new JwtSecurityTokenHandler();
+        var token = tokenHandler.CreateToken(tokenDescriptor);
+        return tokenHandler.WriteToken(token);
     }
+
+}
 }
