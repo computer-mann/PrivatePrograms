@@ -365,3 +365,4 @@ FodyWeavers.xsd
 /ImageResizze/imagesharp1.png
 *.png
 /SpanAndMemory/passenger_output.csv
+*.csv
