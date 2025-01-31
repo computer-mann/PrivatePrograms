@@ -367,3 +367,4 @@ FodyWeavers.xsd
 /SpanAndMemory/passenger_output.csv
 *.csv
 *.xlsx
+*.txt
