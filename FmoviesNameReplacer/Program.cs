@@ -44,7 +44,6 @@
                 Console.WriteLine(secondLevel.Name);
                 if (secondLevel.Name.StartsWith(toReplace) && secondLevel.Name.EndsWith(".csproj"))
                 {
-
                     var oldname = secondLevel.Name;
                     secondLevel.MoveTo(secondLevel.FullName.Replace(toReplace, replaceWith));
                     Console.WriteLine($"{oldname} -> {secondLevel.Name}");

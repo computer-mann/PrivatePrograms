@@ -15,6 +15,9 @@
             //{
             //    screen.display(component);
             //}
+
+            var average = new int[] {  };
+            Console.WriteLine(average.Average());
         }
     }
     interface Draw {

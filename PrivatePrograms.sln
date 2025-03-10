@@ -31,6 +31,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RustTraitObjectsAndGenerics
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SwitchTypeCaseMatching", "SwitchTypeCaseMatching\SwitchTypeCaseMatching.csproj", "{8482641F-9331-4161-AED6-8C22E5B65610}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PackageSearch", "PackageSearch\PackageSearch.csproj", "{B7FA4CFF-D7D5-4A67-BAB6-3DB0251A4EE4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SerializationForLogging", "SerializationForLogging\SerializationForLogging.csproj", "{6444185F-7A1D-4757-8179-F50769FF244F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +97,14 @@ Global
 		{8482641F-9331-4161-AED6-8C22E5B65610}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8482641F-9331-4161-AED6-8C22E5B65610}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8482641F-9331-4161-AED6-8C22E5B65610}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7FA4CFF-D7D5-4A67-BAB6-3DB0251A4EE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7FA4CFF-D7D5-4A67-BAB6-3DB0251A4EE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7FA4CFF-D7D5-4A67-BAB6-3DB0251A4EE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7FA4CFF-D7D5-4A67-BAB6-3DB0251A4EE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6444185F-7A1D-4757-8179-F50769FF244F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6444185F-7A1D-4757-8179-F50769FF244F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6444185F-7A1D-4757-8179-F50769FF244F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6444185F-7A1D-4757-8179-F50769FF244F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

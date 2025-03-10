@@ -1,0 +1,49 @@
+{
+  "Page": {
+    "Channel": "Web",
+    "AppVersion": "1.5.0",
+    "ViewName": "Dashboard",
+    "DeviceType": "Desktop",
+    "CreatedAt": "2025-01-30T15:45:00Z",
+    "SectionName": "Home",
+    "AppName": "SpendClarity",
+    "AppBuildNumber": "1500",
+    "TapName": "Settings",
+    "TapId": "btn-settings",
+    "UiType": "Button",
+    "PageName": "HomePage",
+    "TapShortName": "Settings",
+    "ViewId": "view-456",
+    "ViewShortName": "Dash",
+    "SearchId": "search-654",
+    "SearchResultFound": true,
+    "SearchQuery": "Recent Transactions",
+    "SearchShortName": "Txns",
+    "SearchName": "Transaction Search",
+    "SearchSelectedResult": "Transaction #789",
+    "PurchasePaymentType": "Credit Card",
+    "PurchaseErrorMessage": "",
+    "PurchasePaymentChannel": "Visa",
+    "PurchaseAmount": 250.75
+  },
+  "Customer": {
+    "CustomerPhoneNumber": "+1234567890",
+    "CustomerEmail": "customer@example.com",
+    "CustomerId": "CUST-002",
+    "CustomerName": "Jane Doe"
+  },
+  "Action": {
+    "ActionName": "MakePayment",
+    "IsSuccessful": true,
+    "ApiBaseUrl": "https://api.spendclarity.com",
+    "Payload": "{\"transactionId\":\"TXN-101\",\"amount\":250.75,\"currency\":\"USD\"}",
+    "ApiResponseTimeInSeconds": 0.275,
+    "ApiResponseSizeInMegabytes": 0.003,
+    "ApiStatus": "Success",
+    "ApiUrl": "https://api.spendclarity.com/payments",
+    "ApiStatusCode": 200,
+    "ReasonForFailure": "",
+    "ValidationErrors": "",
+    "ApiResponseSizeInKilobytes": 3.072
+  }
+}

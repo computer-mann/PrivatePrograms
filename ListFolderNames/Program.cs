@@ -8,9 +8,9 @@ namespace ListFolderNames
 {
     internal class Program
     {
-        static void Main(string[] args)
+        static async Task Main(string[] args)
         {
-            var folder = "D:\\Projects\\dotnet\\Hubtel\\Hubtel60\\Hubtel-Library\\src";
+            var folder = "D:\\Projects\\dotnet\\Hubtel\\Hubtel-Library";
             var toReplace = "D:\\Documents";
             var info = new DirectoryInfo(folder);
             try
@@ -18,6 +18,8 @@ namespace ListFolderNames
                 foreach (var file in info.EnumerateDirectories())
                 {
                     Console.WriteLine($"{file.Name}");
+                    await Task.Delay(2000);
+                    Console.Clear();
                 }
             }
             catch (Exception ex)

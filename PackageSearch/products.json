@@ -1,0 +1,3125 @@
+{
+  "message": "Success",
+  "code": 200,
+  "data": {
+    "results": [
+      {
+        "groupName": "Internal Back offices",
+        "supervisors": [
+          {
+            "name": "Evans Prah",
+            "jobLevel": "Engineering Manager",
+            "domain": [
+              "Backend"
+            ],
+            "email": "evans.prah@hubtel.com",
+            "id": "be2edc1ee9914bf6a5be9f222558856b"
+          }
+        ],
+        "productTeams": [
+          {
+            "name": "Internal Back offices (User Care, Finance, Transaction Monitoring, Major Account)",
+            "members": [
+              {
+                "name": "Prince Jan Kumi",
+                "jobLevel": "Executive",
+                "domain": [
+                  "Backend"
+                ],
+                "email": "prince.kumi@hubtel.com",
+                "id": "5f3401e3f35b440ea80fbbd3e800e6e6"
+              },
+              {
+                "name": "Prince Owusu",
+                "jobLevel": "Executive",
+                "domain": [
+                  "Backend"
+                ],
+                "email": "prince.owusu@hubtel.com",
+                "id": "fe183a7847034667bda92afc8f12f455"
+              },
+              {
+                "name": "Rexford Asiedu",
+                "jobLevel": "Executive",
+                "domain": [
+                  "Backend"
+                ],
+                "email": "rexford.asiedu@hubtel.com",
+                "id": "42bc7b68104f457591ed8b4dd9668986"
+              },
+              {
+                "name": "George Boakye",
+                "jobLevel": "Executive",
+                "domain": [
+                  "Frontend"
+                ],
+                "email": "george.boakye@hubtel.com",
+                "id": "05560a33e4cd4468ab077846c307e55e"
+              },
+              {
+                "name": "Reginald Shawn Annan",
+                "jobLevel": "Executive",
+                "domain": [
+                  "Frontend"
+                ],
+                "email": "reginald.annan@hubtel.com",
+                "id": "ff7c04d64cfb4b108a6e901f6a3d6092"
+              },
+              {
+                "name": "Praise Mafo-Kwofie",
+                "jobLevel": "Team Lead",
+                "domain": [
+                  "Frontend"
+                ],
+                "email": "praise.kwofie@hubtel.com",
+                "id": "7b0e3b488c3d4b9fb4629bbbf3559242"
+              },
+              {
+                "name": "Gorman Daniel Hamond",
+                "jobLevel": "Senior",
+                "domain": [
+                  "Backend"
+                ],
+                "email": "gorman@hubtel.com",
+                "id": "cf338407183140f3a1ec35e569c17eb3"
+              }
+            ],
+            "repositories": [
+              {
+                "name": "Hubtel.StaffPortalBackoffice",
+                "id": "0f9bd7afe5dd4da09c8574ac010733ae",
+                "url": "https://dev.azure.com/hubtel/Back-End/_git/Hubtel.StaffPortalBackoffice",
+                "type": "Backend",
+                "description": "Repository for Hubtel.StaffPortalBackoffice",
+                "sonarQubeKey": "Back-End_Hubtel.StaffPortalBackoffice_AY0iM_Q5RnfPkt0dU9X6"
+              },
+              {
+                "name": "Hubtel.BizInfo",
+                "id": "c21a32750fdb4498862d2d5892605938",
+                "url": "https://dev.azure.com/hubtel/Back-End/_git/Hubtel.BizInfo",
+                "type": "Backend",
+                "description": "Repository for Hubtel.BizInfo",
+                "sonarQubeKey": "Back-End_Hubtel.BizInfo_AYzuvCh1RnfPkt0dU498"
+              },
+              {
+                "name": "Hubtel.BizInfo.Sdk",
+                "id": "b695eca1b21641b1bb12ddfbb1461c6f",
+                "url": "https://dev.azure.com/hubtel/Back-End/_git/Hubtel.BizInfo.Sdk",
+                "type": "Backend",
+                "description": "Repository for Hubtel.BizInfo.Sdk",
+                "sonarQubeKey": "Back-End_Hubtel.BizInfo.Sdk_AY0mPIxVRnfPkt0dU9e3"
+              },
+              {
+                "name": "Hubtel.PartnerComplianceBackoffice",
+                "id": "1b8d82805dec499fb503bc9eca78c72a",
+                "url": "https://dev.azure.com/hubtel/Back-End/_git/Hubtel.PartnerComplianceBackoffice",
+                "type": "Backend",
+                "description": "Repository for Hubtel.PartnerComplianceBackoffice",
+                "sonarQubeKey": "Back-End_Hubtel.PartnerComplianceBackoffice_AYws5ETbKiUm6VulSE0B"
+              },
+              {
+                "name": "Support-BackOffice-App",
+                "id": "a51af0def46f4ac69bbacf686dfc5106",
+                "url": "https://dev.azure.com/hubtel/Back-Office/_git/Support-BackOffice-App",
+                "type": "Backend",
+                "description": "Repository for Support-BackOffice-App",
+                "sonarQubeKey": "Back-Office_Support-BackOffice-App_AYj4ixk9o5AhFR4ORSYb"
+              },
+              {
+                "name": "Hubtel-Transactions-Monitoring-Portal",
+                "id": "375d45c3831e4556a285cdd2d7bb6610",
+                "url": "https://dev.azure.com/hubtel/Front-End/_git/Hubtel-Transactions-Monitoring-Portal",
+                "type": "Frontend",
+                "description": "Repository for Hubtel-Transactions-Monitoring-Portal",
+                "sonarQubeKey": "Front-End_Hubtel-Transactions-Monitoring-Portal_AYj6uVtko5AhFR4ORSbt"
+              },
+              {
+                "name": "Hubtel.MarketingV2",
+                "id": "9e3275f5fb9b45bc9a133b778ac5ccde",
+                "url": "https://dev.azure.com/hubtel/Back-End/_git/Hubtel.MarketingV2",
+                "type": "Backend",
+                "description": "Repository for Hubtel.MarketingV2",
+                "sonarQubeKey": "Back-End_Hubtel.MarketingV2_AYjULzA1o5AhFR4ORQ-Y"
+              },
+              {
+                "name": "BusinessInfo-Api-Main",
+                "id": "7ed9760b482546c88dad7e4869d356d1",
+                "url": "https://dev.azure.com/hubtel/Back-Office/_git/BusinessInfo-Api-Main",
+                "type": "Backend",
+                "description": "Repository for BusinessInfo-Api-Main",
+                "sonarQubeKey": "Back-Office_BusinessInfo-Api-Main_AYpi6gvAo5AhFR4ORaTk"
+              },
+              {
+                "name": "Hubtel.MarketingPortal.Discount",
+                "id": "c6b91d8b1563465aabc409f3fe27d155",
+                "url": "https://dev.azure.com/hubtel/Back-End/_git/Hubtel.MarketingPortal.Discount",
+                "type": "Backend",
+                "description": "Repository for Hubtel.MarketingPortal.Discount",
+                "sonarQubeKey": "Back-End_Hubtel.MarketingPortal.Discount_AY4tEKfu7a1Y6MlABPgi"
+              },
+              {
+                "name": "Hubtel.MarketingPortal",
+                "id": "6b070eb3ad32485fbbcc880bc9b739f0",
+                "url": "https://dev.azure.com/hubtel/Back-End/_git/Hubtel.MarketingPortal",
+                "type": "Backend",
+                "description": "Repository for Hubtel.MarketingPortal",
+                "sonarQubeKey": "Back-End_Hubtel.MarketingPortal_AYjXxMZyo5AhFR4ORREZ"
+              },
+              {
+                "name": "Finance-BackOffice-App",
+                "id": "b6d4a865768f4cd18716fd574f2a8fcf",
+                "url": "https://dev.azure.com/hubtel/Back-Office/_git/Finance-BackOffice-App",
+                "type": "Backend",
+                "description": "Repository for Finance-BackOffice-App",
+                "sonarQubeKey": "Back-Office_Finance-BackOffice-App_AYrqzXDoo5AhFR4ORdYk"
+              },
+              {
+                "name": "Hubtel.SupportBO",
+                "id": "be27134a4d3742699e0019eade759d89",
+                "url": "https://dev.azure.com/hubtel/Back-End/_git/Hubtel.SupportBO",
+                "type": "Backend",
+                "description": "Repository for Hubtel.SupportBO",
+                "sonarQubeKey": "Back-End_Hubtel.SupportBO_AYePsvseqT59NbPRKZJz"
+              },
+              {
+                "name": "Hubtel-LNB-Compliance",
+                "id": "4bb0e1cbd34148b3b06fda1428fccf89",
+                "url": "https://dev.azure.com/hubtel/Front-End/_git/Hubtel-LNB-Compliance",
+                "type": "Frontend",
+                "description": "Repository for Hubtel-LNB-Compliance",
+                "sonarQubeKey": "Front-End_Hubtel-LNB-Compliance_AZEm-cO67a1Y6MlACPTV"
+              },
+              {
+                "name": "Hubtel-CBA-Compliance-Portal",
+                "id": "a89f049b7871462b96a312866a88f6b8",
+                "url": "https://dev.azure.com/hubtel/Front-End/_git/Hubtel-CBA-Compliance-Portal",
+                "type": "Frontend",
+                "description": "Repository for Hubtel-CBA-Compliance-Portal",
+                "sonarQubeKey": "Front-End_Hubtel-CBA-Compliance-Portal_AZEm9jdC7a1Y6MlACPTF"
+              },
+              {
+                "name": "Hubtel-Large-Nationwide-Businesses-Backoffice",
+                "id": "746677ad48ab4b358f21076da079ee11",
+                "url": "https://dev.azure.com/hubtel/Front-End/_git/Hubtel-Large-Nationwide-Businesses-Backoffice",
+                "type": "Frontend",
+                "description": "Repository for Hubtel-Large-Nationwide-Businesses-Backoffice",
+                "sonarQubeKey": "Front-End_Hubtel-Large-Nationwide-Businesses-Backoffice_AZFrsjjI7a1Y6MlACTpx"
+              },
+              {
+                "name": "HubtelFinanceBackoffice",
+                "id": "d4ea87a5cedd487abbb71e5b4097eb4e",
+                "url": "https://dev.azure.com/hubtel/Back-End/_git/HubtelFinanceBackoffice",
+                "type": "Backend",
+                "description": "Internal Backoffices repository",
+                "sonarQubeKey": "Back-End_HubtelFinanceBackoffice_AZJrvrMz7a1Y6MlACjAx"
+              },
+              {
+                "name": "Hubtel.UserCareBackOffice",
+                "id": "4c1fad6a8d514af0a1785352609feda3",
+                "url": "https://dev.azure.com/hubtel/Back-End/_git/Hubtel.UserCareBackOffice",
+                "type": "Backend",
+                "description": "Repository for Internal Backoffices",
+                "sonarQubeKey": "Back-End_Hubtel.UserCareBackOffice_AZNEFGvl6_2e2pGJAz3P"
+              },
+              {
+                "name": "Hubtel-Admin-Internal-Backoffices",
+                "id": "508eaa708a5641a4924e682ba1227af8",
+                "url": "https://dev.azure.com/hubtel/Front-End/_git/Hubtel-Admin-Internal-Backoffices",
+                "type": "Frontend",
+                "description": "Internal Backoffices repository",
+                "sonarQubeKey": "Front-End_Hubtel-Admin-Internal-Backoffices_AZGOBi0w7a1Y6MlACVVi"
+              }
+            ],
+            "id": "421349a582bb47b89f0ec7d2b3072982"
+          }
+        ],
+        "id": "9e1dd529dd2a4ba9b84e63bc15987712",
+        "updatedAt": "2025-01-02T18:29:07.718486",
+        "createdAt": "2024-10-08T14:37:15.376393"
+      },
+      {
+        "groupName": "Community-Based Products",
+        "supervisors": [
+          {
+            "name": "Evans Prah",
+            "jobLevel": "Engineering Manager",
+            "domain": [
+              "Backend"
+            ],
+            "email": "evans.prah@hubtel.com",
+            "id": "be2edc1ee9914bf6a5be9f222558856b"
+          },
+          {
+            "name": "Huzaifah Yusif-Attah",
+            "jobLevel": "Senior",
+            "domain": [
+              "Backend"
+            ],
+            "email": "huzaifah@hubtel.com",
+            "id": "e172e7ed29fd46349b81290602345d32"
+          }
+        ],
+        "productTeams": [
+          {
+            "name": "RaiseUp from Hubtel",
+            "members": [
+              {
+                "name": "Evans Prah",
+                "jobLevel": "Engineering Manager",
+                "domain": [
+                  "Backend"
+                ],
+                "email": "evans.prah@hubtel.com",
+                "id": "be2edc1ee9914bf6a5be9f222558856b"
+              },
+              {
+                "name": "Phoebe, Asiama",
+                "jobLevel": "Intern",
+                "domain": [
+                  "Frontend"
+                ],
+                "email": "asiama.phoebe@hubtel.com",
+                "id": "9f32f807ca3f41d79a2d81f82a01aee5"
+              },
+              {
+                "name": "Jonathan Lamptey",
+                "jobLevel": "Executive",
+                "domain": [
+                  "Backend"
+                ],
+                "email": "jonathan.lamptey@hubtel.com",
+                "id": "13459be3943343ab94a910a9474fa4be"
+              },
+              {
+                "name": "Erica Tieku",
+                "jobLevel": "Executive",
+                "domain": [
+                  "Backend"
+                ],
+                "email": "erica.tieku@hubtel.com",
+                "id": "d524396a3972489fa04b9cbf04505a76"
+              },
+              {
+                "name": "Amoatwo, Julius",
+                "jobLevel": "Executive",
+                "domain": [
+                  "Frontend"
+                ],
+                "email": "julius.amoatwo@hubtel.com",
+                "id": "7fc4ecb8d34741f481dd1531ba4ad6a1"
+              },
+              {
+                "name": "Huzaifah Yusif-Attah",
+                "jobLevel": "Senior",
+                "domain": [
+                  "Backend"
+                ],
+                "email": "huzaifah@hubtel.com",
+                "id": "e172e7ed29fd46349b81290602345d32"
+              }
+            ],
+            "repositories": [
+              {
+                "name": "Hubtel.Education",
+                "id": "1c5f317c673c454e9c403df9ed05eefa",
+                "url": "https://dev.azure.com/hubtel/Back-End/_git/Hubtel.Education",
+                "type": "Backend",
+                "description": "Repository for Hubtel.Education",
+                "sonarQubeKey": "Back-End_Hubtel.Education_AYgd-40mo5AhFR4ORMS1"
+              },
+              {
+                "name": "Hubtel-Education-Client-Portal",
+                "id": "3d24a17996ca4c25a211007d8db7c3fc",
+                "url": "https://dev.azure.com/hubtel/Front-End/_git/Hubtel-Education-Client-Portal",
+                "type": "Frontend",
+                "description": "Repository for Hubtel-Education-Client-Portal",
+                "sonarQubeKey": "Front-End_Hubtel-Education-Client-Portal_AYhDgcd6o5AhFR4ORNhA"
+              },
+              {
+                "name": "Hubtel-Education-Web-Parent",
+                "id": "03338291c8b347e9b4323fbd73b51b34",
+                "url": "https://dev.azure.com/hubtel/Front-End/_git/Hubtel-Education-Web-Parent",
+                "type": "Frontend",
+                "description": "Repository for Hubtel-Education-Web-Parent",
+                "sonarQubeKey": "Front-End_Hubtel-Education-Web-Parent_AYiu70IJo5AhFR4ORPh6"
+              },
+              {
+                "name": "Hubtel-School-Fees",
+                "id": "851885e29bd74560a53d516f73fa4196",
+                "url": "https://dev.azure.com/hubtel/Front-End/_git/Hubtel-School-Fees",
+                "type": "Frontend",
+                "description": "Repository for Hubtel-School-Fees",
+                "sonarQubeKey": "Front-End_Hubtel-School-Fees_AY0cSiY4RnfPkt0dU8Pq"
+              },
+              {
+                "name": "Hubtel-Backoffice-Education",
+                "id": "2ad624cade54473c91ec234b1eb1e728",
+                "url": "https://dev.azure.com/hubtel/Front-End/_git/Hubtel-Backoffice-Education",
+                "type": "Frontend",
+                "description": "Repository for Hubtel-Backoffice-Education",
+                "sonarQubeKey": "Front-End_Hubtel-Backoffice-Education_AYhDG6FVo5AhFR4ORNgk"
+              }
+            ],
+            "id": "9308b9fe683f440cb15962bcc774d5a9"
+          },
+          {
+            "name": "Hubtel for Hospitals",
+            "members": [
+              {
+                "name": "Wisdom Alajemba",
+                "jobLevel": "Team Lead",
+                "domain": [
+                  "Backend"
+                ],
+                "email": "wisdom.alajemba@hubtel.com",
+                "id": "47a9a1968fe645af915a4602fa8a2e8a"
+              },
+              {
+                "name": "Mensah Sarah",
+                "jobLevel": "Executive",
+                "domain": [
+                  "Backend"
+                ],
+                "email": "sarah.mensah@hubtel.com",
+                "id": "c35c4d1f224d403290e01da6a2dc2558"
+              },
+              {
+                "name": "Andy Sedzifa",
+                "jobLevel": "Executive",
+                "domain": [
+                  "Frontend"
+                ],
+                "email": "andy.sedzifa@hubtel.com",
+                "id": "8620e903cf084c42a71d0461bbc17565"
+              },
+              {
+                "name": "Charles Manu",
+                "jobLevel": "Team Lead",
+                "domain": [
+                  "Backend"
+                ],
+                "email": "charles.manu@hubtel.com",
+                "id": "dc66e54b82a3404db7b6bb81b225f3f5"
+              },
+              {
+                "name": "Michael Nchor",
+                "jobLevel": "Executive",
+                "domain": [
+                  "Backend"
+                ],
+                "email": "michael.nchor@hubtel.com",
+                "id": "525c7ba276e54362b8bb5712ea43d5b4"
+              },
+              {
+                "name": "Richmond Tweneboanah",
+                "jobLevel": "Executive",
+                "domain": [
+                  "Backend"
+                ],
+                "email": "richmond.tweneboanah@hubtel.com",
+                "id": "ac4ba0962ca046bfb9f66946d6c4f8fb"
+              }
+            ],
+            "repositories": [
+              {
+                "name": "Hubtel.Health",
+                "id": "bb51ce6ee610409ea75219383cb6b905",
+                "url": "https://dev.azure.com/hubtel/Back-End/_git/Hubtel.Health",
+                "type": "Backend",
+                "description": "Repository for Hubtel.Health",
+                "sonarQubeKey": "Back-End_Hubtel.Health_AYiTEDz4o5AhFR4ORPKU"
+              },
+              {
+                "name": "Hubtel-Health-Finance-Backoffice",
+                "id": "ac99374121ae4f17b1b8d20e2c983317",
+                "url": "https://dev.azure.com/hubtel/Front-End/_git/Hubtel-Health-Finance-Backoffice",
+                "type": "Frontend",
+                "description": "Repository for Hubtel-Health-Finance-Backoffice",
+                "sonarQubeKey": "Front-End_Hubtel-Health-Finance-Backoffice_AYidMoZbo5AhFR4ORPPF"
+              },
+              {
+                "name": "Hubtel-Health-PatientPortal",
+                "id": "171279ebcc914dd38b5e44f54677ae65",
+                "url": "https://dev.azure.com/hubtel/Front-End/_git/Hubtel-Health-PatientPortal",
+                "type": "Frontend",
+                "description": "Repository for Hubtel-Health-PatientPortal",
+                "sonarQubeKey": "Front-End_Hubtel-Health-PatientPortal_AYidPIKRo5AhFR4ORPPR"
+              },
+              {
+                "name": "Hubtel-Health-Checkout",
+                "id": "f51236bc1cb34c6eb6f7cad183746bfa",
+                "url": "https://dev.azure.com/hubtel/Front-End/_git/Hubtel-Health-Checkout",
+                "type": "Frontend",
+                "description": "Repository for Hubtel-Health-Checkout",
+                "sonarQubeKey": "Front-End_Hubtel-Health-Checkout_AYoHqEaLo5AhFR4ORXah"
+              },
+              {
+                "name": "Hubtel- Health-Caregiver",
+                "id": "3f5c28da53f14c07b2b07435a306452a",
+                "url": "https://dev.azure.com/hubtel/Front-End/_git/Hubtel-%20Health-Caregiver",
+                "type": "Frontend",
+                "description": "Repository for Hubtel- Health-Caregiver",
+                "sonarQubeKey": "Front-End_Hubtel-_Health-Caregiver_AYicQ0mGo5AhFR4ORPOk"
+              },
+              {
+                "name": "Hubtel-For-Hospitals",
+                "id": "3b9145ae62624e6484a55b9648b3f63a",
+                "url": "https://dev.azure.com/hubtel/Front-End/_git/Hubtel-For-Hospitals",
+                "type": "Frontend",
+                "description": "Repository for Hubtel-For-Hospitals",
+                "sonarQubeKey": "Front-End_Hubtel-For-Hospitals_AYtrkP7so5AhFR4ORgUn"
+              },
+              {
+                "name": "Hubtel-For-Hospitals",
+                "id": "fb049525111a4b938d0772ecb896cd40",
+                "url": "https://dev.azure.com/hubtel/Front-End/_git/Hubtel-For-Hospitals",
+                "type": "Frontend",
+                "description": "Repository for Hubtel-For-Hospitals",
+                "sonarQubeKey": "Front-End_Hubtel-For-Hospitals_AYtrk6apo5AhFR4ORgUy"
+              }
+            ],
+            "id": "3a1df160e19e49d3a025c4a774295d77"
+          },
+          {
+            "name": "Hubtel for Social Groups",
+            "members": [
+              {
+                "name": "Tony Baidoo",
+                "jobLevel": "Head of Engineering",
+                "domain": [
+                  "Backend",
+                  "Frontend",
+                  "ML & Data"
+                ],
+                "email": "tony.baidoo@hubtel.com",
+                "id": "7149d413fbfb4607b97641c48873dc7a"
+              },
+              {
+                "name": "Richmond Tweneboanah",
+                "jobLevel": "Executive",
+                "domain": [
+                  "Backend"
+                ],
+                "email": "richmond.tweneboanah@hubtel.com",
+                "id": "ac4ba0962ca046bfb9f66946d6c4f8fb"
+              },
+              {
+                "name": "Rexford Asiedu",
+                "jobLevel": "Executive",
+                "domain": [
+                  "Backend"
+                ],
+                "email": "rexford.asiedu@hubtel.com",
+                "id": "42bc7b68104f457591ed8b4dd9668986"
+              },
+              {
+                "name": "John Amoah",
+                "jobLevel": "Executive",
+                "domain": [
+                  "Backend"
+                ],
+                "email": "john.amoah@hubtel.com",
+                "id": "2481142adca54cb9b53408a33990aa7a"
+              }
+            ],
+            "repositories": [
+              {
+                "name": "Hubtel.SocialGroupV2",
+                "id": "6f17c2d5af154cb8954d2e7afe626315",
+                "url": "https://dev.azure.com/hubtel/Back-End/_git/Hubtel.SocialGroupV2",
+                "type": "Backend",
+                "description": "Repository for Hubtel.SocialGroupV2",
+                "sonarQubeKey": "Back-End_Hubtel.SocialGroupV2_AY9NJPX17a1Y6MlABsVJ"
+              },
+              {
+                "name": "Hubtel-Social-Groups",
+                "id": "b4ab161ceac74a5fb24ee073cb3b80ba",
+                "url": "https://dev.azure.com/hubtel/Front-End/_git/Hubtel-Social-Groups",
+                "type": "Frontend",
+                "description": "Repository for Hubtel-Social-Groups",
+                "sonarQubeKey": "Front-End_Hubtel-Social-Groups_AYtxYCOzo5AhFR4ORgdX"
+              },
+              {
+                "name": "Hubtel-SMB-Payroll-Admin-Portal",
+                "id": "7c96cd3949b840e39cc58d9f0995c4d8",
+                "url": "https://dev.azure.com/hubtel/Front-End/_git/Hubtel-SMB-Payroll-Admin-Portal",
+                "type": "Frontend",
+                "description": "Repository for Hubtel-SMB-Payroll-Admin-Portal",
+                "sonarQubeKey": "Front-End_Hubtel-SMB-Payroll-Admin-Portal_AY92wtWW7a1Y6MlABx3a"
+              },
+              {
+                "name": "Hubtel-SMB-Payroll-Staff-Portal",
+                "id": "e8c2f777bfbb42558c9857cd23e826fb",
+                "url": "https://dev.azure.com/hubtel/Front-End/_git/Hubtel-SMB-Payroll-Staff-Portal",
+                "type": "Frontend",
+                "description": "Repository for Hubtel-SMB-Payroll-Staff-Portal",
+                "sonarQubeKey": "Front-End_Hubtel-SMB-Payroll-Staff-Portal_AY92x2Sb7a1Y6MlABx3s"
+              },
+              {
+                "name": "Hubtel-Social-Groups-Give",
+                "id": "3e249e1ec5cf475480220051c384c6f9",
+                "url": "https://dev.azure.com/hubtel/Front-End/_git/Hubtel-Social-Groups-Give",
+                "type": "Frontend",
+                "description": "Repository for Hubtel-Social-Groups-Give",
+                "sonarQubeKey": "Front-End_Hubtel-Social-Groups-Give_AYuxBu-Io5AhFR4ORju7"
+              }
+            ],
+            "id": "7bd722e99d984aa9a8e74c7a0f14c906"
+          },
+          {
+            "name": "Retailer Payments",
+            "members": [
+              {
+                "name": "Prince Jan Kumi",
+                "jobLevel": "Executive",
+                "domain": [
+                  "Backend"
+                ],
+                "email": "prince.kumi@hubtel.com",
+                "id": "5f3401e3f35b440ea80fbbd3e800e6e6"
+              },
+              {
+                "name": "Amoatwo, Julius",
+                "jobLevel": "Executive",
+                "domain": [
+                  "Frontend"
+                ],
+                "email": "julius.amoatwo@hubtel.com",
+                "id": "7fc4ecb8d34741f481dd1531ba4ad6a1"
+              },
+              {
+                "name": "Gorman Daniel Hamond",
+                "jobLevel": "Senior",
+                "domain": [
+                  "Backend"
+                ],
+                "email": "gorman@hubtel.com",
+                "id": "cf338407183140f3a1ec35e569c17eb3"
+              }
+            ],
+            "repositories": [
+              {
+                "name": "Hubtel-General-Backoffice",
+                "id": "ef5987827eb84e57bf222b3c4fb623fe",
+                "url": "https://dev.azure.com/hubtel/Front-End/_git/Hubtel-General-Backoffice",
+                "type": "Frontend",
+                "description": "Repository for Hubtel-General-Backoffice",
+                "sonarQubeKey": "Front-End_Hubtel-General-Backoffice_AY8ciIhX7a1Y6MlABpKe"
+              },
+              {
+                "name": "GeneralServices-ImplementationApps",
+                "id": "2dad73a26f474a6fabd3a9e92ec30cdb",
+                "url": "https://dev.azure.com/hubtel/Inventory/_git/GeneralServices-ImplementationApps",
+                "type": "Backend",
+                "description": "Repository for GeneralServices-ImplementationApps",
+                "sonarQubeKey": "Inventory_GeneralServices-ImplementationApps_AYjsDgrdo5AhFR4ORSPk"
+              }
+            ],
+            "id": "34db6008bbfe4826a987f0e7b6ef59e7"
+          }
+        ],
+        "id": "cee89087db364d299fd5b5206a0e3ac9",
+        "updatedAt": "2025-01-22T11:38:14.962455",
+        "createdAt": "2024-10-08T14:36:58.512372"
+      },
+      {
+        "groupName": "Significant Sectors",
+        "supervisors": [
+          {
+            "name": "Harrison Amoatey",
+            "jobLevel": "Engineering Manager",
+            "domain": [
+              "Backend",
+              "Frontend",
+              "ML & Data"
+            ],
+            "email": "harrison@hubtel.com",
+            "id": "a56fc63072a9483f967f08b606a21ce2"
+          },
+          {
+            "name": "Huzaifah Yusif-Attah",
+            "jobLevel": "Senior",
+            "domain": [
+              "Backend"
+            ],
+            "email": "huzaifah@hubtel.com",
+            "id": "e172e7ed29fd46349b81290602345d32"
+          }
+        ],
+        "productTeams": [
+          {
+            "name": "Hubtel for Utility: PowerApp, Web, OLTPV,  and Bonded Cashier Payments",
+            "members": [
+              {
+                "name": "Emmanuel Oduro",
+                "jobLevel": "Senior",
+                "domain": [
+                  "Backend"
+                ],
+                "email": "emmanuel.oduro@hubtel.com",
+                "id": "cf2008cd576f465ba023b3f645850c7c"
+              },
+              {
+                "name": "Emmanuel Asamoah",
+                "jobLevel": "Executive",
+                "domain": [
+                  "Backend"
+                ],
+                "email": "emmanuel.asamoah@hubtel.com",
+                "id": "166eb7f8d7bf435da2124a47d7150fd1"
+              },
+              {
+                "name": "Darkwa Wassem",
+                "jobLevel": "Executive",
+                "domain": [
+                  "Backend"
+                ],
+                "email": "wassem.darkwa@hubtel.com",
+                "id": "d67a7faf4efd4613954a358743f07e20"
+              },
+              {
+                "name": "Godwin Dorglo",
+                "jobLevel": "Executive",
+                "domain": [
+                  "Backend"
+                ],
+                "email": "godwin.dorglo@hubtel.com",
+                "id": "6e417da286b3468fa6968a70cf198536"
+              }
+            ],
+            "repositories": [
+              {
+                "name": "ECG-Backend",
+                "id": "a6c376f140514576bf1d99552f4b8949",
+                "url": "https://dev.azure.com/hubtel/Gov/_git/ECG-Backend",
+                "type": "Backend",
+                "description": "Repository for ECG-Backend",
+                "sonarQubeKey": "Gov_ECG-Backend_AYn9vy_xo5AhFR4ORXBP"
+              },
+              {
+                "name": "ECG-Webapp",
+                "id": "438a0f42940c45feb12570b980d89799",
+                "url": "https://dev.azure.com/hubtel/Gov/_git/ECG-Webapp",
+                "type": "Frontend",
+                "description": "Repository for ECG-Webapp",
+                "sonarQubeKey": "Gov_ECG-Webapp_AYqHHQqlo5AhFR4ORbKi"
+              },
+              {
+                "name": "ECG-OLTPV-BACKOFFICE",
+                "id": "8150cf05720345c1b28c0e562bd3999b",
+                "url": "https://dev.azure.com/hubtel/Gov/_git/ECG-OLTPV-BACKOFFICE",
+                "type": "Frontend",
+                "description": "Repository for ECG-OLTPV-BACKOFFICE",
+                "sonarQubeKey": "Gov_ECG-OLTPV-BACKOFFICE_AYjZMUUAo5AhFR4ORRt-"
+              },
+              {
+                "name": "Hubtel.MtnEcgProxy",
+                "id": "e9a639ae05cb435a90134d27e8bdc045",
+                "url": "https://dev.azure.com/hubtel/Back-End/_git/Hubtel.MtnEcgProxy",
+                "type": "Backend",
+                "description": "Repository for Hubtel.MtnEcgProxy",
+                "sonarQubeKey": "Back-End_Hubtel.MtnEcgProxy_AYjXvbHjo5AhFR4ORREJ"
+              }
+            ],
+            "id": "b4e31be5afba443986bd6049f3665392"
+          },
+          {
+            "name": "Hubtel for Utility: Staff Portal and Back office System",
+            "members": [
+              {
+                "name": "Frank Owusu Boakye",
+                "jobLevel": "Executive",
+                "domain": [
+                  "Backend"
+                ],
+                "email": "frank.boakye@hubtel.com",
+                "id": "7410d00260e24dd7b5fdf0c9b82c4a6f"
+              },
+              {
+                "name": "Wisdom Alajemba",
+                "jobLevel": "Team Lead",
+                "domain": [
+                  "Backend"
+                ],
+                "email": "wisdom.alajemba@hubtel.com",
+                "id": "47a9a1968fe645af915a4602fa8a2e8a"
+              },
+              {
+                "name": "Emmanuel Oduro",
+                "jobLevel": "Senior",
+                "domain": [
+                  "Backend"
+                ],
+                "email": "emmanuel.oduro@hubtel.com",
+                "id": "cf2008cd576f465ba023b3f645850c7c"
+              },
+              {
+                "name": "Andy Sedzifa",
+                "jobLevel": "Executive",
+                "domain": [
+                  "Frontend"
+                ],
+                "email": "andy.sedzifa@hubtel.com",
+                "id": "8620e903cf084c42a71d0461bbc17565"
+              },
+              {
+                "name": "Alexander Acquah Osman",
+                "jobLevel": "Executive",
+                "domain": [
+                  "Frontend"
+                ],
+                "email": "alexander.acquah@hubtel.com",
+                "id": "8a7483b724a8406d9b4303124ec5ff18"
+              }
+            ],
+            "repositories": [
+              {
+                "name": "ECG-TRANSACTIONS-BACKOFFICE",
+                "id": "02fa5da9b60445639133248caaa1155e",
+                "url": "https://dev.azure.com/hubtel/Gov/_git/ECG-TRANSACTIONS-BACKOFFICE",
+                "type": "Frontend",
+                "description": "Repository for ECG-TRANSACTIONS-BACKOFFICE",
+                "sonarQubeKey": "Gov_ECG-TRANSACTIONS-BACKOFFICE_AYqHF6kBo5AhFR4ORbKW"
+              },
+              {
+                "name": "ECG-Staff-Portal",
+                "id": "07f7d69924f848f4832029a7d2b22311",
+                "url": "https://dev.azure.com/hubtel/Gov/_git/ECG-Staff-Portal",
+                "type": "Frontend",
+                "description": "Repository for ECG-Staff-Portal",
+                "sonarQubeKey": "Gov_ECG-Staff-Portal_AYqHCjv2o5AhFR4ORbKI"
+              },
+              {
+                "name": "Hubtel.MtnEcgProxy",
+                "id": "e9a639ae05cb435a90134d27e8bdc045",
+                "url": "https://dev.azure.com/hubtel/Back-End/_git/Hubtel.MtnEcgProxy",
+                "type": "Backend",
+                "description": "Repository for Hubtel.MtnEcgProxy",
+                "sonarQubeKey": "Back-End_Hubtel.MtnEcgProxy_AYjXvbHjo5AhFR4ORREJ"
+              },
+              {
+                "name": "ECG-Backend",
+                "id": "a6c376f140514576bf1d99552f4b8949",
+                "url": "https://dev.azure.com/hubtel/Gov/_git/ECG-Backend",
+                "type": "Backend",
+                "description": "Repository for ECG-Backend",
+                "sonarQubeKey": "Gov_ECG-Backend_AYn9vy_xo5AhFR4ORXBP"
+              },
+              {
+                "name": "ECG-BackOffice-FrontEnd",
+                "id": "907a1a8dced6417dbfa380d853774e71",
+                "url": "https://dev.azure.com/hubtel/Gov/_git/ECG-BackOffice-FrontEnd",
+                "type": "Frontend",
+                "description": "Repository for ECG-BackOffice-FrontEnd",
+                "sonarQubeKey": "Gov_ECG-BackOffice-FrontEnd_AYiSXO-Eo5AhFR4ORPJ-"
+              }
+            ],
+            "id": "8d03897ee7e64212b3ed98d2416611a7"
+          },
+          {
+            "name": "Car Insurance",
+            "members": [
+              {
+                "name": "Isaac Anane Amankwaah",
+                "jobLevel": "Team Lead",
+                "domain": [
+                  "Backend"
+                ],
+                "email": "isaac.amankwaah@hubtel.com",
+                "id": "d8ae574c77fe4c62bf8ef2fc0eca6f72"
+              },
+              {
+                "name": "Stephen Manukure-Addo",
+                "jobLevel": "Executive",
+                "domain": [
+                  "Backend"
+                ],
+                "email": "stephen.manukure@hubtel.com",
+                "id": "d6383c8c40904025aab7f8e5b1b8ba1e"
+              },
+              {
+                "name": "Lamptey Nii Odartey",
+                "jobLevel": "Executive",
+                "domain": [
+                  "Backend"
+                ],
+                "email": "nii.lamptey@hubtel.com",
+                "id": "4a06a9224c304537b2f7efb25fa0ea45"
+              }
+            ],
+            "repositories": [
+              {
+                "name": "Hubtel.InstantServices.Insurance",
+                "id": "51965093e86e4c4aac51734ddf691fe3",
+                "url": "https://dev.azure.com/hubtel/Back-End/_git/Hubtel.InstantServices.Insurance",
+                "type": "Backend",
+                "description": "Repository for Hubtel.InstantServices.Insurance",
+                "sonarQubeKey": "Back-End_Hubtel.InstantServices.Insurance_AYePLP5j1OAhrYtUizpq"
+              }
+            ],
+            "id": "abd8ab8ec41d46738a98db88721da88f"
+          },
+          {
+            "name": "Insurance Merchant Platform",
+            "members": [
+              {
+                "name": "Isaac Anane Amankwaah",
+                "jobLevel": "Team Lead",
+                "domain": [
+                  "Backend"
+                ],
+                "email": "isaac.amankwaah@hubtel.com",
+                "id": "d8ae574c77fe4c62bf8ef2fc0eca6f72"
+              },
+              {
+                "name": "Stephen Manukure-Addo",
+                "jobLevel": "Executive",
+                "domain": [
+                  "Backend"
+                ],
+                "email": "stephen.manukure@hubtel.com",
+                "id": "d6383c8c40904025aab7f8e5b1b8ba1e"
+              },
+              {
+                "name": "Lamptey Nii Odartey",
+                "jobLevel": "Executive",
+                "domain": [
+                  "Backend"
+                ],
+                "email": "nii.lamptey@hubtel.com",
+                "id": "4a06a9224c304537b2f7efb25fa0ea45"
+              },
+              {
+                "name": "Kwame Sarfo",
+                "jobLevel": "Executive",
+                "domain": [
+                  "Backend"
+                ],
+                "email": "kwame.sarfo@hubtel.com",
+                "id": "22a2552bf99042ddbb2563a8ffa6a927"
+              },
+              {
+                "name": "Emmanuel Mensah",
+                "jobLevel": "Executive",
+                "domain": [
+                  "Frontend"
+                ],
+                "email": "emmanuel.mensah@hubtel.com",
+                "id": "6812a408b315413e9a586d6a7e13563c"
+              }
+            ],
+            "repositories": [
+              {
+                "name": "Hubtel.InsuranceMerchantPlatform",
+                "id": "842a969ebaf64f19870cb90398e2eda1",
+                "url": "https://dev.azure.com/hubtel/Back-End/_git/Hubtel.InsuranceMerchantPlatform",
+                "type": "Backend",
+                "description": "Repository for Hubtel.InsuranceMerchantPlatform",
+                "sonarQubeKey": "Back-End_Hubtel.InsuranceMerchantPlatform_AY9dvLT_7a1Y6MlABwYG"
+              },
+              {
+                "name": "Hubtel.InsuranceMerchantPlatform",
+                "id": "8100de6ba1b241ae982b183e35aeca81",
+                "url": "https://dev.azure.com/hubtel/Back-End/_git/Hubtel.InsuranceMerchantPlatform",
+                "type": "Backend",
+                "description": "Repository for Hubtel.InsuranceMerchantPlatform",
+                "sonarQubeKey": "Back-End_Hubtel.InsuranceMerchantPlatform_AY9dvLT_7a1Y6MlABwYG"
+              },
+              {
+                "name": "Hubtel-Insurance-Agent-Portal",
+                "id": "fcb48efa1583493293082ed12b2c0b1e",
+                "url": "https://dev.azure.com/hubtel/Front-End/_git/Hubtel-Insurance-Agent-Portal",
+                "type": "Frontend",
+                "description": "Repository for Hubtel-Insurance-Agent-Portal",
+                "sonarQubeKey": "Front-End_Hubtel-Insurance-Agent-Portal_AY9zS0dR7a1Y6MlABxPU"
+              },
+              {
+                "name": "Hubtel-Insurance-Customer-Portal",
+                "id": "f7b2a4e4f0a94cf1af918f0ed7ca64ec",
+                "url": "https://dev.azure.com/hubtel/Front-End/_git/Hubtel-Insurance-Customer-Portal",
+                "type": "Frontend",
+                "description": "Repository for Hubtel-Insurance-Customer-Portal",
+                "sonarQubeKey": "Front-End_Hubtel-Insurance-Customer-Portal_AY-qzPl47a1Y6MlAB4s3"
+              }
+            ],
+            "id": "02b485947553453c9c222ebd6c1662e9"
+          }
+        ],
+        "id": "9c7843f42ad741cd99fb3049429d1901",
+        "updatedAt": "2024-10-08T14:36:34.738605",
+        "createdAt": "2024-10-08T14:36:34.738605"
+      },
+      {
+        "groupName": "Special Projects",
+        "supervisors": [
+          {
+            "name": "Japhet Kuntu Blankson",
+            "jobLevel": "Engineering Manager",
+            "domain": [
+              "Backend"
+            ],
+            "email": "japhet.blankson@hubtel.com",
+            "id": "6fdd0f6f7ef2468a913d38b5d0b6ef0d"
+          },
+          {
+            "name": "Evans Prah",
+            "jobLevel": "Engineering Manager",
+            "domain": [
+              "Backend"
+            ],
+            "email": "evans.prah@hubtel.com",
+            "id": "be2edc1ee9914bf6a5be9f222558856b"
+          },
+          {
+            "name": "Huzaifah Yusif-Attah",
+            "jobLevel": "Senior",
+            "domain": [
+              "Backend"
+            ],
+            "email": "huzaifah@hubtel.com",
+            "id": "e172e7ed29fd46349b81290602345d32"
+          }
+        ],
+        "productTeams": [
+          {
+            "name": "National Transport Payment System (Tap n Go)",
+            "members": [
+              {
+                "name": "Smith-Assan Quinton",
+                "jobLevel": "Team Lead",
+                "domain": [
+                  "Backend"
+                ],
+                "email": "quinton.assan@hubtel.com",
+                "id": "c9938867ae7b4800bb64dcfa6a17f9a4"
+              },
+              {
+                "name": "Jonathan Lamptey",
+                "jobLevel": "Executive",
+                "domain": [
+                  "Backend"
+                ],
+                "email": "jonathan.lamptey@hubtel.com",
+                "id": "13459be3943343ab94a910a9474fa4be"
+              },
+              {
+                "name": "Amoatwo, Julius",
+                "jobLevel": "Executive",
+                "domain": [
+                  "Frontend"
+                ],
+                "email": "julius.amoatwo@hubtel.com",
+                "id": "7fc4ecb8d34741f481dd1531ba4ad6a1"
+              }
+            ],
+            "repositories": [
+              {
+                "name": "NTPS-Agency-Portal",
+                "id": "13499dc7ae5c47efb970d169657afe0d",
+                "url": "https://dev.azure.com/hubtel/Front-End/_git/NTPS-Agency-Portal",
+                "type": "Frontend",
+                "description": "Repository for NTPS-Agency-Portal",
+                "sonarQubeKey": "Front-End_NTPS-Agency-Portal_AZCnbhIq7a1Y6MlACIl8"
+              },
+              {
+                "name": "NTPS-Admin-Portal",
+                "id": "de11c915d2d74d05a14f315ac30fcce0",
+                "url": "https://dev.azure.com/hubtel/Front-End/_git/NTPS-Admin-Portal",
+                "type": "Frontend",
+                "description": "Repository for NTPS-Admin-Portal",
+                "sonarQubeKey": "Front-End_NTPS-Admin-Portal_AZCneYw37a1Y6MlACIm6"
+              },
+              {
+                "name": "Hubtel.Gov.Transport",
+                "id": "8f0004cff47c4cff90f87b67ce9f9971",
+                "url": "https://dev.azure.com/hubtel/Gov/_git/Hubtel.Gov.Transport",
+                "type": "Backend",
+                "description": "Repository for Hubtel.Gov.Transport",
+                "sonarQubeKey": "Gov_Hubtel.Gov.Transport_AY_i57sa7a1Y6MlAB8tL"
+              }
+            ],
+            "id": "f78fd38c30514564be701240c3b92ca1"
+          },
+          {
+            "name": "Hubtel for Government: Ghana Citizen App",
+            "members": [
+              {
+                "name": "Edward Junior Amartey",
+                "jobLevel": "Executive",
+                "domain": [
+                  "Backend"
+                ],
+                "email": "edward.amartey@hubtel.com",
+                "id": "60548840a37d4303ba98194da104a64f"
+              },
+              {
+                "name": "Ebenezer Siaw",
+                "jobLevel": "Executive",
+                "domain": [
+                  "Backend"
+                ],
+                "email": "ebenezer.siaw@hubtel.com",
+                "id": "98628c52157d4db09b81eb369e9a566b"
+              },
+              {
+                "name": "Emmanuel Darko",
+                "jobLevel": "Team Lead",
+                "domain": [
+                  "Backend"
+                ],
+                "email": "emmanuel.darko@hubtel.com",
+                "id": "d9e3d1a21d7f4122a8bcafe44d931c68"
+              },
+              {
+                "name": "Gerald Amanor",
+                "jobLevel": "Senior",
+                "domain": [
+                  "Backend"
+                ],
+                "email": "gerald@hubtel.com",
+                "id": "be99037657bf4e31a3f0f2acdeb5c329"
+              },
+              {
+                "name": "Seinty Cherish",
+                "jobLevel": "Executive",
+                "domain": [
+                  "Backend"
+                ],
+                "email": "cherish.seinty@hubtel.com",
+                "id": "1680a257c63346c0a5f4485906c680bd"
+              },
+              {
+                "name": "Adom Sackey",
+                "jobLevel": "Executive",
+                "domain": [
+                  "Frontend"
+                ],
+                "email": "adom.sackey@hubtel.com",
+                "id": "43fe40e5487148b697a457732fe646df"
+              },
+              {
+                "name": "Gerald Ofori",
+                "jobLevel": "Executive",
+                "domain": [
+                  "Frontend"
+                ],
+                "email": "gerald.ofori@hubtel.com",
+                "id": "ea663fe14e0d486a86e6d31c07e44b1e"
+              }
+            ],
+            "repositories": [
+              {
+                "name": "Ghana-Gov-Invoice-Processor",
+                "id": "8839a03a6bb04e728463c776782fcfdc",
+                "url": "https://dev.azure.com/hubtel/Notifications/_git/Ghana-Gov-Invoice-Processor",
+                "type": "Backend",
+                "description": "Repository for Ghana-Gov-Invoice-Processor",
+                "sonarQubeKey": "Notifications_Ghana-Gov-Invoice-Processor_AY3CJo2o7a1Y6MlABHKU"
+              },
+              {
+                "name": "Hubtel.MtnPortal",
+                "id": "6c34dbe529574fb4bb39f33a56d801ac",
+                "url": "https://dev.azure.com/hubtel/Back-End/_git/Hubtel.MtnPortal",
+                "type": "Backend",
+                "description": "Repository for Hubtel.MtnPortal",
+                "sonarQubeKey": "Back-End_Hubtel.MtnPortal_AY3CJxiY7a1Y6MlABHKh"
+              },
+              {
+                "name": "GOV Citizens APIs",
+                "id": "36fdd74f8fdd4ffd8af24d050adfee06",
+                "url": "https://dev.azure.com/hubtel/Gov/_git/GOV%20Citizens%20APIs",
+                "type": "Backend",
+                "description": "Repository for GOV Citizens APIs",
+                "sonarQubeKey": "Gov_GOV_Citizens_APIs_AYqIV0IXo5AhFR4ORbMA"
+              },
+              {
+                "name": "Citizens-app-web",
+                "id": "6225309747d24e7ba0f3499c79488494",
+                "url": "https://dev.azure.com/hubtel/Gov/_git/Citizens-app-web",
+                "type": "Frontend",
+                "description": "Repository for Citizens-app-web",
+                "sonarQubeKey": "Gov_Citizens-app-web_AYtxY3Cbo5AhFR4ORgdj"
+              },
+              {
+                "name": "Citizens App-Agencies",
+                "id": "61218ce29e86443997baa86f5d272b19",
+                "url": "https://dev.azure.com/hubtel/Gov/_git/Citizens%20App-Agencies",
+                "type": "Frontend",
+                "description": "Repository for Citizens App-Agencies",
+                "sonarQubeKey": "Gov_Citizens_App-Agencies_AYnf22K_o5AhFR4ORWg-"
+              },
+              {
+                "name": "Notifications - Frontend",
+                "id": "39ca52385a964f04b0080d3af7fdd268",
+                "url": "https://dev.azure.com/hubtel/Gov/_git/Notifications%20-%20Frontend",
+                "type": "Frontend",
+                "description": "Repository for Notifications - Frontend",
+                "sonarQubeKey": "Gov_Notifications_-_Frontend_AYoY_pjno5AhFR4ORXtp"
+              }
+            ],
+            "id": "843380a2e1e1423b81b2249bc0838126"
+          },
+          {
+            "name": "Event Monetization Platform",
+            "members": [
+              {
+                "name": "Ralph Vaughan-Williams",
+                "jobLevel": "Executive",
+                "domain": [
+                  "Backend"
+                ],
+                "email": "ralph.williams@hubtel.com",
+                "id": "80522f825cc04dd485bcaca043f4d3d3"
+              },
+              {
+                "name": "Christian Egyir",
+                "jobLevel": "Executive",
+                "domain": [
+                  "Backend"
+                ],
+                "email": "christian.egyir@hubtel.com",
+                "id": "2f78b012a46a4d6292677ef48fd45b80"
+              },
+              {
+                "name": "Wisdom Alajemba",
+                "jobLevel": "Team Lead",
+                "domain": [
+                  "Backend"
+                ],
+                "email": "wisdom.alajemba@hubtel.com",
+                "id": "47a9a1968fe645af915a4602fa8a2e8a"
+              },
+              {
+                "name": "David Placca",
+                "jobLevel": "Executive",
+                "domain": [
+                  "Frontend"
+                ],
+                "email": "david.placca@hubtel.com",
+                "id": "2ef4916d6ef04c3cbe02e84bfaaa3bda"
+              },
+              {
+                "name": "Abakah, Philemon",
+                "jobLevel": "Executive",
+                "domain": [
+                  "Frontend"
+                ],
+                "email": "philemon.abakah@hubtel.com",
+                "id": "192d38fe334043579ebfa823e86a7ae3"
+              },
+              {
+                "name": "Sammiat Limane",
+                "jobLevel": "Executive",
+                "domain": [
+                  "Backend"
+                ],
+                "email": "sammiat@hubtel.com",
+                "id": "60e224e916d84017a4dd77d4da23b66e"
+              }
+            ],
+            "repositories": [
+              {
+                "name": "Hubtel.Events.Monetization.Platform",
+                "id": "a1b5a4b46d284db2b3edcf311316cc42",
+                "url": "https://dev.azure.com/hubtel/Back-End/_git/Hubtel.Events.Monetization.Platform",
+                "type": "Backend",
+                "description": "Repository for Events",
+                "sonarQubeKey": "Back-End_Hubtel.Events.Monetization.Platform_AZKLTX4m7a1Y6MlACkDb"
+              },
+              {
+                "name": "Hubtel.EventManagement.Attendee",
+                "id": "7eb1bf9fe99647cd9be79a276b7f1581",
+                "url": "https://dev.azure.com/hubtel/Front-End/_git/Hubtel.EventManagement.Attendee",
+                "type": "Frontend",
+                "description": "Repository for Hubtel.EventManagement.Attendee",
+                "sonarQubeKey": "Front-End_Hubtel.EventManagement.Attendee_AYqp1SGao5AhFR4ORb6G"
+              }
+            ],
+            "id": "673d0567003a4d6fbb2737687fe69261"
+          },
+          {
+            "name": "Citizen App Data Interoperability Systems",
+            "members": [
+              {
+                "name": "Emmanuel Akoto",
+                "jobLevel": "Team Lead",
+                "domain": [
+                  "Frontend"
+                ],
+                "email": "emmanuel.akoto@hubtel.com",
+                "id": "4e0560ce2a914457a7e1e9d5b2c866f4"
+              },
+              {
+                "name": "Akwasi Konadu Akuoko",
+                "jobLevel": "Executive",
+                "domain": [
+                  "Frontend"
+                ],
+                "email": "akwasi.konadu@hubtel.com",
+                "id": "fe3f8611d2234de88fd51f25c35842fc"
+              }
+            ],
+            "repositories": [
+              {
+                "name": "Hubtel.Gov.DataExchangeService",
+                "id": "a8f43264ef8d4bebbab0f142727fe707",
+                "url": "https://dev.azure.com/hubtel/Gov/_git/Hubtel.Gov.DataExchangeService",
+                "type": "Backend",
+                "description": "Cadis repository",
+                "sonarQubeKey": "Gov_Hubtel.Gov.DataExchangeService_AZJSem457a1Y6MlAChpF"
+              }
+            ],
+            "id": "3da3230297b74fb2b2d68bbbc3c91979"
+          }
+        ],
+        "id": "b897ebeaa7e643d4b6271afdc9d429e4",
+        "updatedAt": "2024-12-22T18:08:15.835659",
+        "createdAt": "2024-10-08T14:36:15.569604"
+      },
+      {
+        "groupName": "Government and Socially Impactful Projects",
+        "supervisors": [
+          {
+            "name": "Japhet Kuntu Blankson",
+            "jobLevel": "Engineering Manager",
+            "domain": [
+              "Backend"
+            ],
+            "email": "japhet.blankson@hubtel.com",
+            "id": "6fdd0f6f7ef2468a913d38b5d0b6ef0d"
+          },
+          {
+            "name": "Gerald Amanor",
+            "jobLevel": "Senior",
+            "domain": [
+              "Backend"
+            ],
+            "email": "gerald@hubtel.com",
+            "id": "be99037657bf4e31a3f0f2acdeb5c329"
+          }
+        ],
+        "productTeams": [
+          {
+            "name": "Hubtel for Government: MyAssembly.com",
+            "members": [
+              {
+                "name": "Klugah, Daniel",
+                "jobLevel": "Executive",
+                "domain": [
+                  "Backend"
+                ],
+                "email": "daniel.klugah@hubtel.com",
+                "id": "1898c0271e7f43e59101b961f5e5e125"
+              },
+              {
+                "name": "Kofi Gyasi",
+                "jobLevel": "Team Lead",
+                "domain": [
+                  "Backend"
+                ],
+                "email": "kofi.gyasi@hubtel.com",
+                "id": "9238ad543bb54cfba952fe95d27fc332"
+              },
+              {
+                "name": "Emmanuel Amefia",
+                "jobLevel": "Executive",
+                "domain": [
+                  "Backend"
+                ],
+                "email": "emmanuel.amefia@hubtel.com",
+                "id": "f04985c1be2d4bc4b58736f347bbd54f"
+              },
+              {
+                "name": "Evans Nyarko",
+                "jobLevel": "Executive",
+                "domain": [
+                  "Backend"
+                ],
+                "email": "evans.nyarko@hubtel.com",
+                "id": "a396a8ef991940ee957fce8210a66bf6"
+              },
+              {
+                "name": "Gerald Ofori",
+                "jobLevel": "Executive",
+                "domain": [
+                  "Frontend"
+                ],
+                "email": "gerald.ofori@hubtel.com",
+                "id": "ea663fe14e0d486a86e6d31c07e44b1e"
+              },
+              {
+                "name": "Emmanuel Mensah",
+                "jobLevel": "Executive",
+                "domain": [
+                  "Frontend"
+                ],
+                "email": "emmanuel.mensah@hubtel.com",
+                "id": "6812a408b315413e9a586d6a7e13563c"
+              },
+              {
+                "name": "Emmanuel Agyei Darko",
+                "jobLevel": "Executive",
+                "domain": [
+                  "Backend"
+                ],
+                "email": "emmanuel.a.darko@hubtel.com",
+                "id": "0c48ee34890d462bb2372b82e63889b0"
+              }
+            ],
+            "repositories": [
+              {
+                "name": "MyAssembly.Gov",
+                "id": "ae95bc2876444a08b651aa6a8993e580",
+                "url": "https://dev.azure.com/hubtel/Gov/_git/MyAssembly.Gov",
+                "type": "Backend",
+                "description": "Repository for MyAssembly.Gov",
+                "sonarQubeKey": "Gov_MyAssembly.Gov_AYuWLH3Xo5AhFR4ORhVh"
+              },
+              {
+                "name": "Gov-Citizens-Customer-Portal",
+                "id": "7d7faeea3d714b9c861fc05eba245a49",
+                "url": "https://dev.azure.com/hubtel/Gov/_git/Gov-Citizens-Customer-Portal",
+                "type": "Frontend",
+                "description": "Repository for Gov-Citizens-Customer-Portal",
+                "sonarQubeKey": "Gov_Gov-Citizens-Customer-Portal_AY_F7n9p7a1Y6MlAB7BB"
+              },
+              {
+                "name": "MyAssembly.com",
+                "id": "ac49f08e04174db3b96c724fde6ba003",
+                "url": "https://dev.azure.com/hubtel/Gov/_git/MyAssembly.com",
+                "type": "Frontend",
+                "description": "Repository for MyAssembly.com",
+                "sonarQubeKey": "Gov_MyAssembly.com_AYuwMFcKo5AhFR4ORjur"
+              },
+              {
+                "name": "MyAssembly.Gov.InspectorPortal",
+                "id": "e4f7c559d8034e129cf89ec271eaa624",
+                "url": "https://dev.azure.com/hubtel/Gov/_git/MyAssembly.Gov.InspectorPortal",
+                "type": "Frontend",
+                "description": "Repository for MyAssembly.Gov.InspectorPortal",
+                "sonarQubeKey": "Gov_MyAssembly.Gov.InspectorPortal_AY1alMPq7a1Y6MlAA_Ja"
+              }
+            ],
+            "id": "69141ce20f79452ea882afb2348e58ea"
+          },
+          {
+            "name": "LendScore",
+            "members": [
+              {
+                "name": "Josephine Kwakye",
+                "jobLevel": "Executive",
+                "domain": [
+                  "Backend"
+                ],
+                "email": "josephine.kwakye@hubtel.com",
+                "id": "bf4b67e634194018b9dc6e69db5decd4"
+              },
+              {
+                "name": "Godwin Dorglo",
+                "jobLevel": "Executive",
+                "domain": [
+                  "Backend"
+                ],
+                "email": "godwin.dorglo@hubtel.com",
+                "id": "6e417da286b3468fa6968a70cf198536"
+              },
+              {
+                "name": "Selorm Lavoe",
+                "jobLevel": "Team Lead",
+                "domain": [
+                  "Backend"
+                ],
+                "email": "selorm.lavoe@hubtel.com",
+                "id": "3bd19d68962d4716be67b872a633dd6d"
+              },
+              {
+                "name": "Gyang, Emmanuel",
+                "jobLevel": "Executive",
+                "domain": [
+                  "Frontend"
+                ],
+                "email": "emmanuel.gyang@hubtel.com",
+                "id": "9ddf1987e25847709e60f19dec7d6b01"
+              },
+              {
+                "name": "Rabiu Awal",
+                "jobLevel": "Executive",
+                "domain": [
+                  "Frontend"
+                ],
+                "email": "awal.rabiu@hubtel.com",
+                "id": "eb7161a221c8467381e37bcbac70a13d"
+              }
+            ],
+            "repositories": [
+              {
+                "name": "Hubtel-Lendscore-Borrowers-Backoffice",
+                "id": "928035ca977a454f82b00868e04ed3c1",
+                "url": "https://dev.azure.com/hubtel/Front-End/_git/Hubtel-Lendscore-Borrowers-Backoffice",
+                "type": "Frontend",
+                "description": "Repository for Hubtel-Lendscore-Borrowers-Backoffice",
+                "sonarQubeKey": "Front-End_Hubtel-Lendscore-Borrowers-Backoffice_AY7QpvaS7a1Y6MlABh-6"
+              },
+              {
+                "name": "Hubtel.LendScore",
+                "id": "85323fb4d63f41488b6f80a6efa346fe",
+                "url": "https://dev.azure.com/hubtel/Back-End/_git/Hubtel.LendScore",
+                "type": "Backend",
+                "description": "Repository for Hubtel.LendScore",
+                "sonarQubeKey": "Back-End_Hubtel.LendScore_AYseDA-do5AhFR4OReZW"
+              },
+              {
+                "name": "Hubtel-Lendscore-Backoffice",
+                "id": "8ce3888c2e864ed5b58e4bb612f14669",
+                "url": "https://dev.azure.com/hubtel/Front-End/_git/Hubtel-Lendscore-Backoffice",
+                "type": "Frontend",
+                "description": "Repository for Hubtel-Lendscore-Backoffice",
+                "sonarQubeKey": "Front-End_Hubtel-Lendscore-Backoffice_AYuBgMrso5AhFR4ORgvq"
+              },
+              {
+                "name": "Hubtel-Lenders-Financier-Portal",
+                "id": "921e22bbbdb844b0a431bab8d1b48926",
+                "url": "https://dev.azure.com/hubtel/Front-End/_git/Hubtel-Lenders-Financier-Portal",
+                "type": "Frontend",
+                "description": "Repository for Hubtel-Lenders-Financier-Portal",
+                "sonarQubeKey": "Front-End_Hubtel-Lenders-Financier-Portal_AZD-iBvc7a1Y6MlACN9y"
+              },
+              {
+                "name": "Hubtel.LendScore.AuthenticationAndLiveAcitivity",
+                "id": "b6e3bbe0fc4a46e9a031091277bdec3e",
+                "url": "https://dev.azure.com/hubtel/Back-End/_git/Hubtel.LendScore.AuthenticationAndLiveAcitivity",
+                "type": "Backend",
+                "description": "A repository that belongs to LendScore",
+                "sonarQubeKey": "Back-End_Hubtel.LendScore.AuthenticationAndLiveAcitivity_AZRlj5CL6_2e2pGJA7HK"
+              },
+              {
+                "name": "Hubtel.PaySmallSmall",
+                "id": "31e2c39f74f744e4870d827986ebdc9b",
+                "url": "https://dev.azure.com/hubtel/Back-End/_git/Hubtel.PaySmallSmall",
+                "type": "Backend",
+                "description": "A repository that belongs to LendScore",
+                "sonarQubeKey": "Back-End_Hubtel.PaySmallSmall_AZRlikcj6_2e2pGJA7G7"
+              },
+              {
+                "name": "Hubtel.CreditReporting",
+                "id": "a931cf4cc33343918de1fd2fd8454bb3",
+                "url": "https://dev.azure.com/hubtel/Back-End/_git/Hubtel.CreditReporting",
+                "type": "Backend",
+                "description": "A repository that belongs to LendScore",
+                "sonarQubeKey": "Back-End_Hubtel.CreditReporting_AZRlbJQO6_2e2pGJA7Gj"
+              },
+              {
+                "name": "Hubtel-LendScore",
+                "id": "1c0857346f8649828e614bdb0837e587",
+                "url": "https://dev.azure.com/hubtel/Front-End/_git/Hubtel-LendScore",
+                "type": "Frontend",
+                "description": "Lendsore frontend repository",
+                "sonarQubeKey": "Front-End_Hubtel-LendScore_AZR1kDyF6_2e2pGJA7nO"
+              }
+            ],
+            "id": "95bfa72e9fc1452498e0e65fbdeb919d"
+          },
+          {
+            "name": "myCreditScore",
+            "members": [
+              {
+                "name": "Adom Sackey",
+                "jobLevel": "Executive",
+                "domain": [
+                  "Frontend"
+                ],
+                "email": "adom.sackey@hubtel.com",
+                "id": "43fe40e5487148b697a457732fe646df"
+              },
+              {
+                "name": "Gerald Ofori",
+                "jobLevel": "Executive",
+                "domain": [
+                  "Frontend"
+                ],
+                "email": "gerald.ofori@hubtel.com",
+                "id": "ea663fe14e0d486a86e6d31c07e44b1e"
+              },
+              {
+                "name": "Gerald Amanor",
+                "jobLevel": "Senior",
+                "domain": [
+                  "Backend"
+                ],
+                "email": "gerald@hubtel.com",
+                "id": "be99037657bf4e31a3f0f2acdeb5c329"
+              },
+              {
+                "name": "David Mensah",
+                "jobLevel": "Executive",
+                "domain": [
+                  "Backend"
+                ],
+                "email": "david.mensah@hubtel.com",
+                "id": "33a41468298c43388b805c048f04f341"
+              },
+              {
+                "name": "Divine Sackitey",
+                "jobLevel": "Executive",
+                "domain": [
+                  "Backend"
+                ],
+                "email": "divine.sackitey@hubtel.com",
+                "id": "7d7cf4ffc0d44ef9a3f7f71e776f18d2"
+              },
+              {
+                "name": "Edward Junior Amartey",
+                "jobLevel": "Executive",
+                "domain": [
+                  "Backend"
+                ],
+                "email": "edward.amartey@hubtel.com",
+                "id": "60548840a37d4303ba98194da104a64f"
+              },
+              {
+                "name": "Rexford Asiedu",
+                "jobLevel": "Executive",
+                "domain": [
+                  "Backend"
+                ],
+                "email": "rexford.asiedu@hubtel.com",
+                "id": "42bc7b68104f457591ed8b4dd9668986"
+              },
+              {
+                "name": "Emmanuel Amefia",
+                "jobLevel": "Executive",
+                "domain": [
+                  "Backend"
+                ],
+                "email": "emmanuel.amefia@hubtel.com",
+                "id": "f04985c1be2d4bc4b58736f347bbd54f"
+              }
+            ],
+            "repositories": [
+              {
+                "name": "Hubtel.Gov.MyCreditScore",
+                "id": "72639a1c68b046b88f8fcc0a86f8db14",
+                "url": "https://dev.azure.com/hubtel/Gov/_git/Hubtel.Gov.MyCreditScore",
+                "type": "Backend",
+                "description": "Repository for Hubtel.Gov.MyCreditScore",
+                "sonarQubeKey": "Gov_Hubtel.Gov.MyCreditScore_AZAMWNy67a1Y6MlAB_qo"
+              },
+              {
+                "name": "Gov-Citizens-Creditscore-Portal",
+                "id": "7bd2f488d10843e4ab1f6d66684cbc36",
+                "url": "https://dev.azure.com/hubtel/Gov/_git/Gov-Citizens-Creditscore-Portal",
+                "type": "Frontend",
+                "description": "Repository for Gov-Citizens-Creditscore-Portal",
+                "sonarQubeKey": "Gov_Gov-Citizens-Creditscore-Portal_AZFrxAVR7a1Y6MlACTqL"
+              }
+            ],
+            "id": "6e511db9353f4cb1bcf0564c1a850e4b"
+          },
+          {
+            "name": "SME G&O Programme for MoF with Credit Score",
+            "members": [
+              {
+                "name": "Rexford Asiedu",
+                "jobLevel": "Executive",
+                "domain": [
+                  "Backend"
+                ],
+                "email": "rexford.asiedu@hubtel.com",
+                "id": "42bc7b68104f457591ed8b4dd9668986"
+              },
+              {
+                "name": "Godwin Dorglo",
+                "jobLevel": "Executive",
+                "domain": [
+                  "Backend"
+                ],
+                "email": "godwin.dorglo@hubtel.com",
+                "id": "6e417da286b3468fa6968a70cf198536"
+              },
+              {
+                "name": "Gorman Daniel Hamond",
+                "jobLevel": "Senior",
+                "domain": [
+                  "Backend"
+                ],
+                "email": "gorman@hubtel.com",
+                "id": "cf338407183140f3a1ec35e569c17eb3"
+              },
+              {
+                "name": "Owusu-Donkor Kwasi",
+                "jobLevel": "Team Lead",
+                "domain": [
+                  "Frontend"
+                ],
+                "email": "kwasi.donkor@hubtel.com",
+                "id": "b49cfe0225a243f89af44eae4f288fbc"
+              },
+              {
+                "name": "Faith Appoh",
+                "jobLevel": "Executive",
+                "domain": [
+                  "Frontend"
+                ],
+                "email": "faith.appoh@hubtel.com",
+                "id": "cd0154d48c734ecf8204ccd4f820010a"
+              },
+              {
+                "name": "Rabiu Awal",
+                "jobLevel": "Executive",
+                "domain": [
+                  "Frontend"
+                ],
+                "email": "awal.rabiu@hubtel.com",
+                "id": "eb7161a221c8467381e37bcbac70a13d"
+              }
+            ],
+            "repositories": [
+              {
+                "name": "Hubtel.SME",
+                "id": "173d3d1c2cba45ffaac4b79072f166b1",
+                "url": "https://dev.azure.com/hubtel/Gov/_git/Hubtel.SME",
+                "type": "Backend",
+                "description": "Repository for Hubtel.SME",
+                "sonarQubeKey": "Gov_Hubtel.SME_AZCWzVZq7a1Y6MlACHek"
+              },
+              {
+                "name": "SME-GO",
+                "id": "f796fd8dc65a4ed2b1bcfb67c1f56ca6",
+                "url": "https://dev.azure.com/hubtel/Gov/_git/SME-GO",
+                "type": "Backend",
+                "description": "Repository for SME-GO",
+                "sonarQubeKey": "Gov_SME-GO_AZEnM5Q_7a1Y6MlACPVz"
+              },
+              {
+                "name": "SME-GO-Admin-Portal",
+                "id": "4339c444b14d4e51912be767f388d4eb",
+                "url": "https://dev.azure.com/hubtel/Gov/_git/SME-GO-Admin-Portal",
+                "type": "Frontend",
+                "description": "Repository for SME-GO-Admin-Portal",
+                "sonarQubeKey": "Gov_SME-GO-Admin-Portal_AZCabwK17a1Y6MlACIJh"
+              }
+            ],
+            "id": "69c213b586544f0eb0dfc6a85ab4b6ad"
+          }
+        ],
+        "id": "aae14dd0eec24ae5a3cef8fbc84dc1ba",
+        "updatedAt": "2024-12-12T11:18:26.995191",
+        "createdAt": "2024-10-08T14:35:55.318431"
+      },
+      {
+        "groupName": "Merchant Tools",
+        "supervisors": [
+          {
+            "name": "Evans Prah",
+            "jobLevel": "Engineering Manager",
+            "domain": [
+              "Backend"
+            ],
+            "email": "evans.prah@hubtel.com",
+            "id": "be2edc1ee9914bf6a5be9f222558856b"
+          },
+          {
+            "name": "Daniel Avoke",
+            "jobLevel": "Senior",
+            "domain": [
+              "Backend"
+            ],
+            "email": "daniel.avoke@hubtel.com",
+            "id": "b39464857a2e40d5a058dfa5d54f8656"
+          }
+        ],
+        "productTeams": [
+          {
+            "name": "Customer and Merchant Onboarding",
+            "members": [
+              {
+                "name": "Charles Manu",
+                "jobLevel": "Team Lead",
+                "domain": [
+                  "Backend"
+                ],
+                "email": "charles.manu@hubtel.com",
+                "id": "dc66e54b82a3404db7b6bb81b225f3f5"
+              }
+            ],
+            "repositories": [
+              {
+                "name": "Hubtel.Consumer.Auth",
+                "id": "43f4f5efb95641c3bde5717fe809bff6",
+                "url": "https://dev.azure.com/hubtel/Consumer/_git/Hubtel.Consumer.Auth",
+                "type": "Backend",
+                "description": "Repository for Hubtel.Consumer.Auth",
+                "sonarQubeKey": "Consumer_Hubtel.Consumer.Auth_AYj6jhlRo5AhFR4ORSa9"
+              },
+              {
+                "name": "Gratis-ConsumerProxy-Api",
+                "id": "b968bca4684b403ba650286562b6ba55",
+                "url": "https://dev.azure.com/hubtel/Consumer/_git/Gratis-ConsumerProxy-Api",
+                "type": "Backend",
+                "description": "Repository for Gratis-ConsumerProxy-Api",
+                "sonarQubeKey": "Consumer_Gratis-ConsumerProxy-Api_AYj6gBBgo5AhFR4ORSau"
+              },
+              {
+                "name": "Hubtel.ReportStream",
+                "id": "f69010c50361490da37544c917e22a9a",
+                "url": "https://dev.azure.com/hubtel/Back-End/_git/Hubtel.ReportStream",
+                "type": "Backend",
+                "description": "Repository for Hubtel.ReportStream",
+                "sonarQubeKey": "Back-End_Hubtel.ReportStream_AYePzt1YZrueCMSHSUVh"
+              },
+              {
+                "name": "Hubtel.com - Transactions",
+                "id": "67c23939c59e427f97807b9f578837ad",
+                "url": "https://dev.azure.com/hubtel/Back-End/_git/Hubtel.com%20-%20Transactions",
+                "type": "Backend",
+                "description": "Repository for Hubtel.com - Transactions",
+                "sonarQubeKey": "Back-End_Hubtel.com_-_Transactions_AYeP7q1hZrueCMSHSUaT"
+              },
+              {
+                "name": "Hubtel.ProductAnalytics",
+                "id": "a9656114b8da4ee29860b06115f79329",
+                "url": "https://dev.azure.com/hubtel/Back-End/_git/Hubtel.ProductAnalytics",
+                "type": "Backend",
+                "description": "Repository for Hubtel.ProductAnalytics",
+                "sonarQubeKey": "Back-End_Hubtel.ProductAnalytics_AYjX3eVso5AhFR4ORRFQ"
+              },
+              {
+                "name": "Hubtel.com - Auth",
+                "id": "45986e8ac63d452fab1b1346dd30d093",
+                "url": "https://dev.azure.com/hubtel/Back-End/_git/Hubtel.com%20-%20Auth",
+                "type": "Backend",
+                "description": "Repository for Hubtel.com - Auth",
+                "sonarQubeKey": "Back-End_Hubtel.com_-_Auth_AYeP4l0rZrueCMSHSUZg"
+              },
+              {
+                "name": "Hubtel.com - Profile.Wallets",
+                "id": "02ea135f935b451d8a84d1d07b046ada",
+                "url": "https://dev.azure.com/hubtel/Back-End/_git/Hubtel.com%20-%20Profile.Wallets",
+                "type": "Backend",
+                "description": "Repository for Hubtel.com - Profile.Wallets",
+                "sonarQubeKey": "Back-End_Hubtel.com_-_Profile.Wallets_AYeP2kn0ZrueCMSHSUZU"
+              },
+              {
+                "name": "Hubtel.ConsumerPurchaseHistory",
+                "id": "29e838aa1be0442eb295021bfa28a395",
+                "url": "https://dev.azure.com/hubtel/Consumer/_git/Hubtel.ConsumerPurchaseHistory",
+                "type": "Backend",
+                "description": "Repository for Hubtel.ConsumerPurchaseHistory",
+                "sonarQubeKey": "Consumer_Hubtel.ConsumerPurchaseHistory_AY3CQ26r7a1Y6MlABHM7"
+              },
+              {
+                "name": "Gratis-Api-ConsumerData",
+                "id": "32a76f119e444d85ae5ccfcc8f5299a2",
+                "url": "https://dev.azure.com/hubtel/Consumer/_git/Gratis-Api-ConsumerData",
+                "type": "Backend",
+                "description": "Repository for Gratis-Api-ConsumerData",
+                "sonarQubeKey": "Consumer_Gratis-Api-ConsumerData_AYj6eUK-o5AhFR4ORSai"
+              }
+            ],
+            "id": "3dc910213cc249118e15bfda4a98471c"
+          },
+          {
+            "name": "Payment & Checkout",
+            "members": [
+              {
+                "name": "Asare Jason",
+                "jobLevel": "Executive",
+                "domain": [
+                  "Backend"
+                ],
+                "email": "jason.asare@hubtel.com",
+                "id": "0154288ccad940a48fbeb07827811da6"
+              },
+              {
+                "name": "Nutifafa Kpodo",
+                "jobLevel": "Executive",
+                "domain": [
+                  "Backend"
+                ],
+                "email": "nutifafa.kpodo@hubtel.com",
+                "id": "132cf09ca8db494f9442c98aabb0062f"
+              },
+              {
+                "name": "Francis Shiangah",
+                "jobLevel": "Executive",
+                "domain": [
+                  "Backend"
+                ],
+                "email": "francis.shiangah@hubtel.com",
+                "id": "305493aca18b4e1fb7f4c339f15ce6ec"
+              },
+              {
+                "name": "Gyateng Emmanuel Okyere",
+                "jobLevel": "Executive",
+                "domain": [
+                  "Backend"
+                ],
+                "email": "emmanuel.gyateng@hubtel.com",
+                "id": "54d88ec1f0fa4d8aa50bbc1d86f47044"
+              },
+              {
+                "name": "Matthew Gwalisam",
+                "jobLevel": "Executive",
+                "domain": [
+                  "Backend"
+                ],
+                "email": "matthew.gwalisam@hubtel.com",
+                "id": "c84c749fd26e4d00a081d28f563c474d"
+              },
+              {
+                "name": "Bright Owusu Antwi",
+                "jobLevel": "Team Lead",
+                "domain": [
+                  "Backend"
+                ],
+                "email": "bright.antwi@hubtel.com",
+                "id": "d84b1bab8e4b4e7d842c97c7fe52796b"
+              },
+              {
+                "name": "Daniel Avoke",
+                "jobLevel": "Senior",
+                "domain": [
+                  "Backend"
+                ],
+                "email": "daniel.avoke@hubtel.com",
+                "id": "b39464857a2e40d5a058dfa5d54f8656"
+              },
+              {
+                "name": "Isaac Afful",
+                "jobLevel": "Team Lead",
+                "domain": [
+                  "Frontend"
+                ],
+                "email": "isaac.afful@hubtel.com",
+                "id": "4551e4fa49ed4efc996d38b8ac550c93"
+              }
+            ],
+            "repositories": [
+              {
+                "name": "Hubtel.ZeePay",
+                "id": "03d258ece24f49d4b1ec8545f6f0f341",
+                "url": "https://dev.azure.com/hubtel/Back-End/_git/Hubtel.ZeePay",
+                "type": "Backend",
+                "description": "Repository for Hubtel.ZeePay",
+                "sonarQubeKey": "Back-End_Hubtel.ZeePay_AY3CKtKH7a1Y6MlABHLk"
+              },
+              {
+                "name": "DevPortalProxy",
+                "id": "17f469009546441d8a1f5a5060bc4661",
+                "url": "https://dev.azure.com/hubtel/Back-End/_git/DevPortalProxy",
+                "type": "Backend",
+                "description": "Repository for DevPortalProxy",
+                "sonarQubeKey": "Back-End_DevPortalProxy_AYjFD4N2o5AhFR4ORQgp"
+              },
+              {
+                "name": "Hubtel.ReceiveMoney",
+                "id": "96126f5c4d20413ca280ab6e42db4a03",
+                "url": "https://dev.azure.com/hubtel/Back-End/_git/Hubtel.ReceiveMoney",
+                "type": "Backend",
+                "description": "Repository for Hubtel.ReceiveMoney",
+                "sonarQubeKey": "Back-End_Hubtel.ReceiveMoney_AYdM4u3w7wzQZ34FU8NK"
+              },
+              {
+                "name": "Hubtel.FinanceBOCashFlash",
+                "id": "22e3966bdbef4216a8674b24d3289e5e",
+                "url": "https://dev.azure.com/hubtel/Back-End/_git/Hubtel.FinanceBOCashFlash",
+                "type": "Backend",
+                "description": "Repository for Hubtel.FinanceBOCashFlash",
+                "sonarQubeKey": "Back-End_Hubtel.FinanceBOCashFlash_AYjUKm_po5AhFR4ORQ-J"
+              },
+              {
+                "name": "Finance-Api",
+                "id": "53b4f4d2c11d424fb78364ce0f8baf50",
+                "url": "https://dev.azure.com/hubtel/Back-Office/_git/Finance-Api",
+                "type": "Backend",
+                "description": "Repository for Finance-Api",
+                "sonarQubeKey": "Back-Office_Finance-Api_AYj4fpIMo5AhFR4ORSYM"
+              },
+              {
+                "name": "Hubtel.UnifiedCheckout",
+                "id": "08bc39a63ec14745b652a7e5bfec451c",
+                "url": "https://dev.azure.com/hubtel/Back-End/_git/Hubtel.UnifiedCheckout",
+                "type": "Backend",
+                "description": "Repository for Hubtel.UnifiedCheckout",
+                "sonarQubeKey": "Back-End_Hubtel.UnifiedCheckout_AYrBOojEo5AhFR4ORcaI"
+              },
+              {
+                "name": "Hubtel.CardVerification",
+                "id": "daf1b18abfed4e93bf91f8d873c07678",
+                "url": "https://dev.azure.com/hubtel/Back-End/_git/Hubtel.CardVerification",
+                "type": "Backend",
+                "description": "Repository for Hubtel.CardVerification",
+                "sonarQubeKey": "Back-End_Hubtel.CardVerification_AYjXtzavo5AhFR4ORRD9"
+              },
+              {
+                "name": "Checkout-Web",
+                "id": "8c288dd583574904a10db083d72ff94f",
+                "url": "https://dev.azure.com/hubtel/Front-End/_git/Checkout-Web",
+                "type": "Frontend",
+                "description": "Repository for Checkout-Web",
+                "sonarQubeKey": "Front-End_Checkout-Web_AY1kBDyI7a1Y6MlABAi6"
+              },
+              {
+                "name": "Hubtel.PayIn4",
+                "id": "508219df64b84ab593183133e64b70b8",
+                "url": "https://dev.azure.com/hubtel/Back-End/_git/Hubtel.PayIn4",
+                "type": "Backend",
+                "description": "Repository for Hubtel.PayIn4",
+                "sonarQubeKey": "Back-End_Hubtel.PayIn4_AY0mMDHuRnfPkt0dU9d1"
+              },
+              {
+                "name": "Hubtel-BusinessPayments-Api",
+                "id": "2e3a414cbbb04e85ab333f8d1063c48f",
+                "url": "https://dev.azure.com/hubtel/Payments/_git/Hubtel-BusinessPayments-Api",
+                "type": "Backend",
+                "description": "Repository for Hubtel-BusinessPayments-Api",
+                "sonarQubeKey": "Payments_Hubtel-BusinessPayments-Api_AYrBMXuSo5AhFR4ORcZ7"
+              },
+              {
+                "name": "Hubtel.Chenosis",
+                "id": "14c26ad959b44a248d9571237dbc11ba",
+                "url": "https://dev.azure.com/hubtel/Back-End/_git/Hubtel.Chenosis",
+                "type": "Backend",
+                "description": "Repository for Hubtel.Chenosis",
+                "sonarQubeKey": "Back-End_Hubtel.Chenosis_AY0pixsXRnfPkt0dU9qB"
+              },
+              {
+                "name": "Hubtel.ReceiveMoney.DirectSettlement",
+                "id": "36f9a29332974d3fbed45131656d3fcd",
+                "url": "https://dev.azure.com/hubtel/Back-End/_git/Hubtel.ReceiveMoney.DirectSettlement",
+                "type": "Backend",
+                "description": "Repository for Hubtel.ReceiveMoney.DirectSettlement",
+                "sonarQubeKey": "Back-End_Hubtel.ReceiveMoney.DirectSettlement_AY0xprDoRnfPkt0dU_bz"
+              },
+              {
+                "name": "GeneralService-Consumer-Fulfillment",
+                "id": "e8145a26d0994ccc993551d1fb85d0ef",
+                "url": "https://dev.azure.com/hubtel/Consumer/_git/GeneralService-Consumer-Fulfillment",
+                "type": "Backend",
+                "description": "Repository for GeneralService-Consumer-Fulfillment",
+                "sonarQubeKey": "Consumer_GeneralService-Consumer-Fulfillment_AYj56q0Wo5AhFR4ORSZ3"
+              },
+              {
+                "name": "ReceiveMoney-ApiProxy",
+                "id": "3a4c9c3603f54733b844f23e6eb1ee99",
+                "url": "https://dev.azure.com/hubtel/Payments/_git/ReceiveMoney-ApiProxy",
+                "type": "Backend",
+                "description": "Repository for ReceiveMoney-ApiProxy",
+                "sonarQubeKey": "Payments_ReceiveMoney-ApiProxy_AYrDZOX8o5AhFR4ORcbX"
+              },
+              {
+                "name": "Orders-Caching-Consumers",
+                "id": "e8be00d22c14414fb36a3159245a92ce",
+                "url": "https://dev.azure.com/hubtel/Orders/_git/Orders-Caching-Consumers",
+                "type": "Backend",
+                "description": "Repository for Orders-Caching-Consumers",
+                "sonarQubeKey": "Orders_Orders-Caching-Consumers_AYrGe7Rvo5AhFR4ORccZ"
+              },
+              {
+                "name": "RecurringInvoices-CoreApp",
+                "id": "f9e6e3fe3255429bb29afb96ef0add59",
+                "url": "https://dev.azure.com/hubtel/Payments/_git/RecurringInvoices-CoreApp",
+                "type": "Backend",
+                "description": "Repository for RecurringInvoices-CoreApp",
+                "sonarQubeKey": "Payments_RecurringInvoices-CoreApp_AYrKUnBmo5AhFR4ORcdr"
+              },
+              {
+                "name": "Unified Sales",
+                "id": "3306f7560ac641bebc249bbdbbe7421a",
+                "url": "https://dev.azure.com/hubtel/Orders/_git/Unified%20Sales",
+                "type": "Backend",
+                "description": "Repository for Unified Sales",
+                "sonarQubeKey": "Orders_Unified_Sales_AYrKZLYco5AhFR4ORckV"
+              },
+              {
+                "name": "ReceiveMoney-Consumers",
+                "id": "bca3babfff574c02bbd23735eed48b9c",
+                "url": "https://dev.azure.com/hubtel/Payments/_git/ReceiveMoney-Consumers",
+                "type": "Backend",
+                "description": "Repository for ReceiveMoney-Consumers",
+                "sonarQubeKey": "Payments_ReceiveMoney-Consumers_AYrBRAPYo5AhFR4ORcaV"
+              },
+              {
+                "name": "SendMoney-CoreApps",
+                "id": "7887e235c3be49318d129a2ace4cdc15",
+                "url": "https://dev.azure.com/hubtel/Payments/_git/SendMoney-CoreApps",
+                "type": "Backend",
+                "description": "Repository for SendMoney-CoreApps",
+                "sonarQubeKey": "Payments_SendMoney-CoreApps_AYrKbgQTo5AhFR4ORclM"
+              },
+              {
+                "name": "Order-Consumer-OrderPaid",
+                "id": "455bbdf85081475b80d7f3dc695c216f",
+                "url": "https://dev.azure.com/hubtel/Orders/_git/Order-Consumer-OrderPaid",
+                "type": "Backend",
+                "description": "Repository for Order-Consumer-OrderPaid",
+                "sonarQubeKey": "Orders_Order-Consumer-OrderPaid_AYq1sZZ5o5AhFR4ORcUT"
+              },
+              {
+                "name": "Order-Scheduler",
+                "id": "469fcf6e4424436bb7fe1dbbd78efa0b",
+                "url": "https://dev.azure.com/hubtel/Orders/_git/Order-Scheduler",
+                "type": "Backend",
+                "description": "Repository for Order-Scheduler",
+                "sonarQubeKey": "Orders_Order-Scheduler_AYrKeuT6o5AhFR4ORclZ"
+              },
+              {
+                "name": "Payment-Consumer-ReceiveMoney-Accounting-Provider",
+                "id": "8e011f0ed93e410c89d6452a4b59bf60",
+                "url": "https://dev.azure.com/hubtel/Payments/_git/Payment-Consumer-ReceiveMoney-Accounting-Provider",
+                "type": "Backend",
+                "description": "Repository for Payment-Consumer-ReceiveMoney-Accounting-Provider",
+                "sonarQubeKey": "Payments_Payment-Consumer-ReceiveMoney-Accounting-Provider_AY3CKZmC7a1Y6MlABHLK"
+              },
+              {
+                "name": "Hubtel.Gatekeeper",
+                "id": "57ca7e9eb4164d96a2851b08521bdbc7",
+                "url": "https://dev.azure.com/hubtel/Back-End/_git/Hubtel.Gatekeeper",
+                "type": "Backend",
+                "description": "Repository for Hubtel.Gatekeeper",
+                "sonarQubeKey": "Back-End_Hubtel.Gatekeeper_AY85wIrK7a1Y6MlABqXg"
+              },
+              {
+                "name": "Hubtel.Accounting",
+                "id": "87c87aa62ec948ebbc5f2a977e36d432",
+                "url": "https://dev.azure.com/hubtel/Payments/_git/Hubtel.Accounting",
+                "type": "Backend",
+                "description": "Repository for Hubtel.Accounting",
+                "sonarQubeKey": "Payments_Hubtel.Accounting_AY3CKPPA7a1Y6MlABHK9"
+              },
+              {
+                "name": "Hubtel.TaxWithHolding",
+                "id": "cf08fce7574a4d04bf2cba6619daaaef",
+                "url": "https://dev.azure.com/hubtel/Back-End/_git/Hubtel.TaxWithHolding",
+                "type": "Backend",
+                "description": "Repository for Hubtel.TaxWithHolding",
+                "sonarQubeKey": "Back-End_Hubtel.TaxWithHolding_AYoiDKQSo5AhFR4ORYA6"
+              },
+              {
+                "name": "Hubtel.GMoney.Proxy",
+                "id": "5237ddfa51624d78ba2fb01b26efc7d7",
+                "url": "https://dev.azure.com/hubtel/Back-End/_git/Hubtel.GMoney.Proxy",
+                "type": "Backend",
+                "description": "Repository for Hubtel.GMoney.Proxy",
+                "sonarQubeKey": "Back-End_Hubtel.GMoney.Proxy_AYjXrVALo5AhFR4ORRDi"
+              },
+              {
+                "name": "Hubtel.ELevy",
+                "id": "7ed311577fc947c5b9d2cd588171df58",
+                "url": "https://dev.azure.com/hubtel/Back-End/_git/Hubtel.ELevy",
+                "type": "Backend",
+                "description": "Repository for Hubtel.ELevy",
+                "sonarQubeKey": "Back-End_Hubtel.ELevy_AY3CK1ew7a1Y6MlABHLx"
+              },
+              {
+                "name": "Hubtel.PaySmallSmallRefunds",
+                "id": "9e1211519f354ea5b0b53bdc57bc2aae",
+                "url": "https://dev.azure.com/hubtel/Back-End/_git/Hubtel.PaySmallSmallRefunds",
+                "type": "Backend",
+                "description": "Repository for Hubtel.PaySmallSmallRefunds",
+                "sonarQubeKey": "Back-End_Hubtel.PaySmallSmallRefunds_AY8bc4Fw7a1Y6MlABpI9"
+              },
+              {
+                "name": "Hubtel.CardWhitelist",
+                "id": "cc47647c6e584b458269889d0a27f46a",
+                "url": "https://dev.azure.com/hubtel/Back-End/_git/Hubtel.CardWhitelist",
+                "type": "Backend",
+                "description": "Repository for Hubtel.CardWhitelist",
+                "sonarQubeKey": "Back-End_Hubtel.CardWhitelist_AYrKhsHNo5AhFR4ORcln"
+              },
+              {
+                "name": "Hubtel.SupportBO",
+                "id": "be27134a4d3742699e0019eade759d89",
+                "url": "https://dev.azure.com/hubtel/Back-End/_git/Hubtel.SupportBO",
+                "type": "Backend",
+                "description": "Repository for Hubtel.SupportBO",
+                "sonarQubeKey": "Back-End_Hubtel.SupportBO_AYePsvseqT59NbPRKZJz"
+              },
+              {
+                "name": "Hubtel.MerchantPreApproval",
+                "id": "0799a24271484fee9fdbf84edeed33de",
+                "url": "https://dev.azure.com/hubtel/Back-End/_git/Hubtel.MerchantPreApproval",
+                "type": "Backend",
+                "description": "Repository for Hubtel.MerchantPreApproval",
+                "sonarQubeKey": "Back-End_Hubtel.MerchantPreApproval_AYjX0JuDo5AhFR4ORRE3"
+              },
+              {
+                "name": "ConsumerSendReceiveMoney",
+                "id": "7b4829be2aac4336bf45544774d0dbab",
+                "url": "https://dev.azure.com/hubtel/Back-End/_git/ConsumerSendReceiveMoney",
+                "type": "Backend",
+                "description": "Repository for ConsumerSendReceiveMoney",
+                "sonarQubeKey": "Back-End_ConsumerSendReceiveMoney_AYq764IIo5AhFR4ORcXz"
+              },
+              {
+                "name": "Hubtel.MerchantCardProxy",
+                "id": "7c9011b3111f41af82afc02336f2eb9e",
+                "url": "https://dev.azure.com/hubtel/Back-End/_git/Hubtel.MerchantCardProxy",
+                "type": "Backend",
+                "description": "Repository for Hubtel.MerchantCardProxy",
+                "sonarQubeKey": "Back-End_Hubtel.MerchantCardProxy_AYjXqOVoo5AhFR4ORRDV"
+              },
+              {
+                "name": "Hubtel.Accounting.Processor",
+                "id": "8b7806f7068e44008b92e33b99f4ac32",
+                "url": "https://dev.azure.com/hubtel/Back-End/_git/Hubtel.Accounting.Processor",
+                "type": "Backend",
+                "description": "Repository for Hubtel.Accounting.Processor",
+                "sonarQubeKey": "Back-End_Hubtel.Accounting.Processor_AY3CKEh87a1Y6MlABHKw"
+              },
+              {
+                "name": "Hubtel.UserCarePPEBackOffice",
+                "id": "dc3fc432a76244938edc933a70aa9140",
+                "url": "https://dev.azure.com/hubtel/Back-End/_git/Hubtel.UserCarePPEBackOffice",
+                "type": "Backend",
+                "description": "Repository for Hubtel.UserCarePPEBackOffice",
+                "sonarQubeKey": "Back-End_Hubtel.UserCarePPEBackOffice_AYePiveoqT59NbPRKZHs"
+              },
+              {
+                "name": "Hubtel-InterFineractTransfer-Consumer",
+                "id": "54573a3d4f2c4150b28f6909405de1c6",
+                "url": "https://dev.azure.com/hubtel/Payments/_git/Hubtel-InterFineractTransfer-Consumer",
+                "type": "Backend",
+                "description": "Repository for Hubtel-InterFineractTransfer-Consumer",
+                "sonarQubeKey": "Payments_Hubtel-InterFineractTransfer-Consumer_AY3CKhkY7a1Y6MlABHLX"
+              },
+              {
+                "name": "Unified Sales",
+                "id": "92ac288f70154b878d8f53c85a05794b",
+                "url": "https://dev.azure.com/hubtel/Orders/_git/Unified%20Sales",
+                "type": "Backend",
+                "description": "Repository for Unified Sales",
+                "sonarQubeKey": "Orders_Unified_Sales_AYrKZLYco5AhFR4ORckV"
+              },
+              {
+                "name": "Hubtel.MerchantPayment",
+                "id": "fc195adb08cc47f79bc7ff8b71d7157c",
+                "url": "https://dev.azure.com/hubtel/Back-End/_git/Hubtel.MerchantPayment",
+                "type": "Backend",
+                "description": "Repository for Hubtel.MerchantPayment",
+                "sonarQubeKey": "Back-End_Hubtel.MerchantPayment_AYm00TiKo5AhFR4ORVpV"
+              },
+              {
+                "name": "Hubtel-BusinessPayments-Consumer",
+                "id": "3fe9290b3c6f4bf48bfca3733246eb24",
+                "url": "https://dev.azure.com/hubtel/Payments/_git/Hubtel-BusinessPayments-Consumer",
+                "type": "Backend",
+                "description": "Repository for Hubtel-BusinessPayments-Consumer",
+                "sonarQubeKey": "Payments_Hubtel-BusinessPayments-Consumer_AY_LlUWu7a1Y6MlAB7vw"
+              },
+              {
+                "name": "Hubtel-BusinessPayments-Consumer",
+                "id": "e5dff50f36c8405d80aeffb03e47a63c",
+                "url": "https://dev.azure.com/hubtel/Payments/_git/Hubtel-BusinessPayments-Consumer",
+                "type": "Backend",
+                "description": "Repository for Hubtel-BusinessPayments-Consumer",
+                "sonarQubeKey": "Payments_Hubtel-BusinessPayments-Consumer_AY_LlUWu7a1Y6MlAB7vw"
+              },
+              {
+                "name": "ReceiveMoney-CallbackNotifier",
+                "id": "36e2ef60b7e14fefb3bbfc3125cf9d82",
+                "url": "https://dev.azure.com/hubtel/Payments/_git/ReceiveMoney-CallbackNotifier",
+                "type": "Backend",
+                "description": "Repository for ReceiveMoney-CallbackNotifier",
+                "sonarQubeKey": "Payments_ReceiveMoney-CallbackNotifier_AY_Lpd587a1Y6MlAB7wB"
+              },
+              {
+                "name": "ReceiveMoney-StatusCheckApi",
+                "id": "49c11cb627c446dcb5ee12eddd55153c",
+                "url": "https://dev.azure.com/hubtel/Payments/_git/ReceiveMoney-StatusCheckApi",
+                "type": "Backend",
+                "description": "Repository for ReceiveMoney-StatusCheckApi",
+                "sonarQubeKey": "Payments_ReceiveMoney-StatusCheckApi_AY_LrdHj7a1Y6MlAB7wP"
+              },
+              {
+                "name": "Hubtel.GeneralServiceFullment",
+                "id": "57de68caff4249d1ada02d9b53fb8dc4",
+                "url": "https://dev.azure.com/hubtel/Payments/_git/Hubtel.GeneralServiceFullment",
+                "type": "Backend",
+                "description": "Repository for payments",
+                "sonarQubeKey": "Payments_Hubtel.GeneralServiceFullment_AZK1rv_exdj97qG301hw"
+              },
+              {
+                "name": "Hubtel.TelcoProcessor",
+                "id": "dcdc03ad6f314c70921220f647a99289",
+                "url": "https://dev.azure.com/hubtel/Payments/_git/Hubtel.TelcoProcessor",
+                "type": "Backend",
+                "description": "Repository for payment",
+                "sonarQubeKey": "Payments_Hubtel.TelcoProcessor_AZGOfPI67a1Y6MlACVWt"
+              },
+              {
+                "name": "Hubtel.PartnerSettlements",
+                "id": "609a776e772d4dc1b32d6c81ea5f0252",
+                "url": "https://dev.azure.com/hubtel/Payments/_git/Hubtel.PartnerSettlements",
+                "type": "Backend",
+                "description": "Repository for payment",
+                "sonarQubeKey": "Payments_Hubtel.PartnerSettlements_AZNoUps66_2e2pGJA1Ih"
+              },
+              {
+                "name": "Hubtel.Reconciliation.Refunds",
+                "id": "37b320ddf4d64d4db2528012c26bea33",
+                "url": "https://dev.azure.com/hubtel/Payments/_git/Hubtel.Reconciliation.Refunds",
+                "type": "Backend",
+                "description": "A repository that belongs to Payment & Checkout",
+                "sonarQubeKey": "Payments_Hubtel.Reconciliation.Refunds_AZRr1Rcf6_2e2pGJA7RO"
+              }
+            ],
+            "id": "8ae3b631f61349a28fe0a879f7e8b3df"
+          },
+          {
+            "name": "Notifications (Messaging, Push Notification, Emails)",
+            "members": [
+              {
+                "name": "Daniel Avoke",
+                "jobLevel": "Senior",
+                "domain": [
+                  "Backend"
+                ],
+                "email": "daniel.avoke@hubtel.com",
+                "id": "b39464857a2e40d5a058dfa5d54f8656"
+              },
+              {
+                "name": "Asare Jason",
+                "jobLevel": "Executive",
+                "domain": [
+                  "Backend"
+                ],
+                "email": "jason.asare@hubtel.com",
+                "id": "0154288ccad940a48fbeb07827811da6"
+              },
+              {
+                "name": "Abdallah Mustapha",
+                "jobLevel": "Executive",
+                "domain": [
+                  "Backend"
+                ],
+                "email": "abdallah.mustapha@hubtel.com",
+                "id": "9aa6dc2413084786ae5f34bed51a44dd"
+              }
+            ],
+            "repositories": [
+              {
+                "name": "Hubtel.CoreMessaging",
+                "id": "adcec93abb7144e0b8d88fdbf839de7d",
+                "url": "https://dev.azure.com/hubtel/Back-End/_git/Hubtel.CoreMessaging",
+                "type": "Backend",
+                "description": "Repository for Hubtel.CoreMessaging",
+                "sonarQubeKey": "Back-End_Hubtel.CoreMessaging_AYnlIhjqo5AhFR4ORWmD"
+              },
+              {
+                "name": "Hubtel.PaymentNotifications",
+                "id": "80292db827a74f92becf0a814b09027a",
+                "url": "https://dev.azure.com/hubtel/Back-End/_git/Hubtel.PaymentNotifications",
+                "type": "Backend",
+                "description": "Repository for Hubtel.PaymentNotifications",
+                "sonarQubeKey": "Back-End_Hubtel.PaymentNotifications_AY9cnAzZ7a1Y6MlABwPx"
+              },
+              {
+                "name": "Producer Messaging",
+                "id": "ea8dedb9ddf44513b9a65744e107cfa7",
+                "url": "https://dev.azure.com/hubtel/Notifications/_git/Producer%20Messaging",
+                "type": "Backend",
+                "description": "Repository for Producer Messaging",
+                "sonarQubeKey": "Notifications_Producer_Messaging_AYrKi4Ono5AhFR4ORclz"
+              },
+              {
+                "name": "MTN MADAPI Proxy",
+                "id": "d75ba51e072f4cab8a1237c5efdc651e",
+                "url": "https://dev.azure.com/hubtel/Back-End/_git/MTN%20MADAPI%20Proxy",
+                "type": "Backend",
+                "description": "Repository for MTN MADAPI Proxy",
+                "sonarQubeKey": "Back-End_MTN_MADAPI_Proxy_AYjX6vpno5AhFR4ORRFr"
+              },
+              {
+                "name": "TransactionMonitoringInsights",
+                "id": "aa1a364a7a034329936e4fb2f44c58ab",
+                "url": "https://dev.azure.com/hubtel/Back-End/_git/TransactionMonitoringInsights",
+                "type": "Backend",
+                "description": "Repository for TransactionMonitoringInsights",
+                "sonarQubeKey": "Back-End_TransactionMonitoringInsights_AYjX4knlo5AhFR4ORRFb"
+              },
+              {
+                "name": "Downloads-Consumer-Main",
+                "id": "5a7396dc835745fa94340a974acbd2b0",
+                "url": "https://dev.azure.com/hubtel/Producer/_git/Downloads-Consumer-Main",
+                "type": "Backend",
+                "description": "Repository for Downloads-Consumer-Main",
+                "sonarQubeKey": "Producer_Downloads-Consumer-Main_AY3EzIHV7a1Y6MlABHcH"
+              },
+              {
+                "name": "USSD",
+                "id": "3435af481a98493ca2b1195481f0cfec",
+                "url": "https://dev.azure.com/hubtel/Inventory/_git/USSD",
+                "type": "Backend",
+                "description": "Repository for USSD",
+                "sonarQubeKey": "Inventory_USSD_AYj4UQhoo5AhFR4ORSXp"
+              },
+              {
+                "name": "HubtelSchedulingEngine",
+                "id": "36720cf42fd842ba8235ef4ac49dc448",
+                "url": "https://dev.azure.com/hubtel/Back-End/_git/HubtelSchedulingEngine",
+                "type": "Backend",
+                "description": "Repository for HubtelSchedulingEngine",
+                "sonarQubeKey": "Back-End_HubtelSchedulingEngine_AYrKklgDo5AhFR4ORcl_"
+              },
+              {
+                "name": "Messaging",
+                "id": "ea59e7060f8b45d5994847fadb397c9c",
+                "url": "https://dev.azure.com/hubtel/Notifications/_git/Messaging",
+                "type": "Backend",
+                "description": "Repository for Messaging",
+                "sonarQubeKey": "Notifications_Messaging_AYq1gW0Wo5AhFR4ORcT_"
+              },
+              {
+                "name": "Hubtel.ProducerMessagingV2",
+                "id": "ac0b78941163407f921080340071f915",
+                "url": "https://dev.azure.com/hubtel/Back-End/_git/Hubtel.ProducerMessagingV2",
+                "type": "Backend",
+                "description": "Repository for Hubtel.ProducerMessagingV2",
+                "sonarQubeKey": "Back-End_Hubtel.ProducerMessagingV2_AYrKoPIfo5AhFR4ORcp5"
+              },
+              {
+                "name": "Notification-Consumer-DefaultSystem",
+                "id": "46aeb596b321407b83c3446c8e6e8f19",
+                "url": "https://dev.azure.com/hubtel/Notifications/_git/Notification-Consumer-DefaultSystem",
+                "type": "Backend",
+                "description": "Repository for Notification-Consumer-DefaultSystem",
+                "sonarQubeKey": "Notifications_Notification-Consumer-DefaultSystem_AYrBKX3Uo5AhFR4ORcZu"
+              },
+              {
+                "name": "Hubtel.Automated.Notifications",
+                "id": "0f5fd5b8b37d48b9991720a25879f303",
+                "url": "https://dev.azure.com/hubtel/Back-End/_git/Hubtel.Automated.Notifications",
+                "type": "Backend",
+                "description": "Repository for Hubtel.Automated.Notifications",
+                "sonarQubeKey": "Back-End_Hubtel.Automated.Notifications_AY3CLC8c7a1Y6MlABHL-"
+              },
+              {
+                "name": "ProducerPaylinkInvoicing",
+                "id": "e5073827638f447cb22325b4a9329944",
+                "url": "https://dev.azure.com/hubtel/Back-End/_git/ProducerPaylinkInvoicing",
+                "type": "Backend",
+                "description": "Repository for ProducerPaylinkInvoicing",
+                "sonarQubeKey": "Back-End_ProducerPaylinkInvoicing_AYjXyqlbo5AhFR4ORREr"
+              },
+              {
+                "name": "Hubtel.ProducerMessaging.Consumers",
+                "id": "4357e4c85ba44309b5cac4e1c2d1458c",
+                "url": "https://dev.azure.com/hubtel/Notifications/_git/Hubtel.ProducerMessaging.Consumers",
+                "type": "Backend",
+                "description": "Repository for notifications",
+                "sonarQubeKey": "Notifications_Hubtel.ProducerMessaging.Consumers_AZNqrRKq6_2e2pGJA1Q-"
+              }
+            ],
+            "id": "f5bf76c44d5b4e099b4a915b33861b26"
+          },
+          {
+            "name": "Merchant Dashboard (MA Portal)",
+            "members": [
+              {
+                "name": "Lemuel Addy",
+                "jobLevel": "Executive",
+                "domain": [
+                  "Backend"
+                ],
+                "email": "lemuel.addy@hubtel.com",
+                "id": "9efd6f6878044dce8cdbdf4a7997a93e"
+              },
+              {
+                "name": "Bismark Quartey",
+                "jobLevel": "Executive",
+                "domain": [
+                  "Backend"
+                ],
+                "email": "bismark.quartey@hubtel.com",
+                "id": "94df76b8f68d4a59b4f5d7fdbdce0109"
+              },
+              {
+                "name": "Owusu-Donkor Kwasi",
+                "jobLevel": "Team Lead",
+                "domain": [
+                  "Frontend"
+                ],
+                "email": "kwasi.donkor@hubtel.com",
+                "id": "b49cfe0225a243f89af44eae4f288fbc"
+              },
+              {
+                "name": "Faith Appoh",
+                "jobLevel": "Executive",
+                "domain": [
+                  "Frontend"
+                ],
+                "email": "faith.appoh@hubtel.com",
+                "id": "cd0154d48c734ecf8204ccd4f820010a"
+              },
+              {
+                "name": "Gorman Daniel Hamond",
+                "jobLevel": "Senior",
+                "domain": [
+                  "Backend"
+                ],
+                "email": "gorman@hubtel.com",
+                "id": "cf338407183140f3a1ec35e569c17eb3"
+              }
+            ],
+            "repositories": [
+              {
+                "name": "Hubtel-Merchant-Invoice-Pay",
+                "id": "92c303fe4c82429d9dd533bedf519938",
+                "url": "https://dev.azure.com/hubtel/Front-End/_git/Hubtel-Merchant-Invoice-Pay",
+                "type": "Frontend",
+                "description": "Repository for Hubtel-Merchant-Invoice-Pay",
+                "sonarQubeKey": "Front-End_Hubtel-Merchant-Invoice-Pay_AY3BKTNE7a1Y6MlABG7p"
+              },
+              {
+                "name": "Checkout-Api-Main",
+                "id": "d8dbbbcfe8b140b6a8c49381e5603215",
+                "url": "https://dev.azure.com/hubtel/Consumer/_git/Checkout-Api-Main",
+                "type": "Backend",
+                "description": "Repository for Checkout-Api-Main",
+                "sonarQubeKey": "Consumer_Checkout-Api-Main_AYj58h-To5AhFR4ORSaD"
+              },
+              {
+                "name": "Hubtel.MerchantInvoicing",
+                "id": "751cabee526c444abe69208155f41f39",
+                "url": "https://dev.azure.com/hubtel/Back-End/_git/Hubtel.MerchantInvoicing",
+                "type": "Backend",
+                "description": "Repository for Hubtel.MerchantInvoicing",
+                "sonarQubeKey": "Back-End_Hubtel.MerchantInvoicing_AY07tA7SRnfPkt0dVAZd"
+              },
+              {
+                "name": "Hubtel.MAPortalProxy",
+                "id": "9fc9d339e4964f34b48cbe5c42ecb826",
+                "url": "https://dev.azure.com/hubtel/Back-End/_git/Hubtel.MAPortalProxy",
+                "type": "Backend",
+                "description": "Repository for Hubtel.MAPortalProxy",
+                "sonarQubeKey": "Back-End_Hubtel.MAPortalProxy_AYjUCb7Io5AhFR4ORQ5-"
+              },
+              {
+                "name": "Inventory-CoreApps",
+                "id": "d724515840084b77a396737ac2711ef9",
+                "url": "https://dev.azure.com/hubtel/Inventory/_git/Inventory-CoreApps",
+                "type": "Backend",
+                "description": "Repository for Inventory-CoreApps",
+                "sonarQubeKey": "Inventory_Inventory-CoreApps_AYj6lTAuo5AhFR4ORSbJ"
+              },
+              {
+                "name": "Checkout-Api-Proxy",
+                "id": "a83cff978db1410dad6a68a431045034",
+                "url": "https://dev.azure.com/hubtel/Consumer/_git/Checkout-Api-Proxy",
+                "type": "Backend",
+                "description": "Repository for Checkout-Api-Proxy",
+                "sonarQubeKey": "Consumer_Checkout-Api-Proxy_AYjXnkTPo5AhFR4ORRDJ"
+              },
+              {
+                "name": "Hubtel-Major-Accounts-Portal-V2",
+                "id": "133b0b2b6e2e4b478209c35c83572373",
+                "url": "https://dev.azure.com/hubtel/Front-End/_git/Hubtel-Major-Accounts-Portal-V2",
+                "type": "Frontend",
+                "description": "Repository for Hubtel-Major-Accounts-Portal-V2",
+                "sonarQubeKey": "Front-End_Hubtel-Major-Accounts-Portal-V2_AYn5OCP7o5AhFR4ORW2z"
+              },
+              {
+                "name": "Hubtel.InternalProducerCheckoutProxy",
+                "id": "62ea4b09d39444f0ac37dcfff8a0fd1a",
+                "url": "https://dev.azure.com/hubtel/Back-End/_git/Hubtel.InternalProducerCheckoutProxy",
+                "type": "Backend",
+                "description": "Repository for Hubtel.InternalProducerCheckoutProxy",
+                "sonarQubeKey": "Back-End_Hubtel.InternalProducerCheckoutProxy_AY3Bz1Gm7a1Y6MlABHFy"
+              },
+              {
+                "name": "Hubtel.MerchantDeveloperPortalProxy",
+                "id": "7e163d9d663a460a98cbdda425dc422b",
+                "url": "https://dev.azure.com/hubtel/Back-End/_git/Hubtel.MerchantDeveloperPortalProxy",
+                "type": "Backend",
+                "description": "Repository for Hubtel.MerchantDeveloperPortalProxy",
+                "sonarQubeKey": "Back-End_Hubtel.MerchantDeveloperPortalProxy_AY7h4EkI7a1Y6MlABicc"
+              },
+              {
+                "name": "Hubtel.InternalProducerCheckoutProxy",
+                "id": "e3b26dcd023146e0be695d71245b157b",
+                "url": "https://dev.azure.com/hubtel/Back-End/_git/Hubtel.InternalProducerCheckoutProxy",
+                "type": "Backend",
+                "description": "Repository for Hubtel.InternalProducerCheckoutProxy",
+                "sonarQubeKey": "Back-End_Hubtel.InternalProducerCheckoutProxy_AY3Bz1Gm7a1Y6MlABHFy"
+              },
+              {
+                "name": "Hubtel.MaPortal - Auxiliaries",
+                "id": "d4fea3f938fb4ee7950d2dca2f673114",
+                "url": "https://dev.azure.com/hubtel/Back-End/_git/Hubtel.MaPortal%20-%20Auxiliaries",
+                "type": "Backend",
+                "description": "Repository for Hubtel.MaPortal - Auxiliaries",
+                "sonarQubeKey": "Back-End_Hubtel.MaPortal_-_Auxiliaries_AYePdyfu4kBny1LkLynt"
+              },
+              {
+                "name": "Hubtel.Merchant.Notification",
+                "id": "1cba19615afe46e796aa4cb5cb177760",
+                "url": "https://dev.azure.com/hubtel/Back-End/_git/Hubtel.Merchant.Notification",
+                "type": "Backend",
+                "description": "Repository for Hubtel.Merchant.Notification",
+                "sonarQubeKey": "Back-End_Hubtel.Merchant.Notification_AY92WDBZ7a1Y6MlABxfS"
+              },
+              {
+                "name": "Hubtel.MerchantPayment",
+                "id": "fc195adb08cc47f79bc7ff8b71d7157c",
+                "url": "https://dev.azure.com/hubtel/Back-End/_git/Hubtel.MerchantPayment",
+                "type": "Backend",
+                "description": "Repository for Hubtel.MerchantPayment",
+                "sonarQubeKey": "Back-End_Hubtel.MerchantPayment_AYm00TiKo5AhFR4ORVpV"
+              },
+              {
+                "name": "Hubtel-Merchant-Tools",
+                "id": "8713c6fe40e54bfda00941d50cec106f",
+                "url": "https://dev.azure.com/hubtel/Front-End/_git/Hubtel-Merchant-Tools",
+                "type": "Frontend",
+                "description": "MA Portal frontend repository",
+                "sonarQubeKey": "Front-End_Hubtel-Merchant-Tools_AZSTt6-V6_2e2pGJA8Ho"
+              }
+            ],
+            "id": "fd356793e56e4c45b6f7ab8d4db8b87f"
+          },
+          {
+            "name": "Hubtel for Retailer Payment Partnerships(All-in-one POS & Partner Portal)",
+            "members": [
+              {
+                "name": "Frank Ahiadome",
+                "jobLevel": "Senior",
+                "domain": [
+                  "Backend"
+                ],
+                "email": "frank.ahiadome@hubtel.com",
+                "id": "b805894098fb49ce83b132d0a3a31eab"
+              },
+              {
+                "name": "Kwaku Biney",
+                "jobLevel": "Executive",
+                "domain": [
+                  "Backend"
+                ],
+                "email": "kwaku.biney@hubtel.com",
+                "id": "cf1301d967d8436f9d752205399f3c4d"
+              },
+              {
+                "name": "Huzaifah Yusif-Attah",
+                "jobLevel": "Senior",
+                "domain": [
+                  "Backend"
+                ],
+                "email": "huzaifah@hubtel.com",
+                "id": "e172e7ed29fd46349b81290602345d32"
+              },
+              {
+                "name": "Kwabena Antwi Agyapong",
+                "jobLevel": "Executive",
+                "domain": [
+                  "Frontend"
+                ],
+                "email": "kwabena.agyapong@hubtel.com",
+                "id": "81d5061b41a1464cbb904817951eb912"
+              },
+              {
+                "name": "Nana Akwasi Aforo",
+                "jobLevel": "Executive",
+                "domain": [
+                  "Backend"
+                ],
+                "email": "akwasi.aforo@hubtel.com",
+                "id": "ec9df78f9acd48719034ee9dc3b672f4"
+              }
+            ],
+            "repositories": [
+              {
+                "name": "POS-Proxy",
+                "id": "dfa83e081ef242f3bcdfdcba828772e1",
+                "url": "https://dev.azure.com/hubtel/Consumer/_git/POS-Proxy",
+                "type": "Backend",
+                "description": "Repository for POS-Proxy",
+                "sonarQubeKey": "Consumer_POS-Proxy_AYjXkenHo5AhFR4ORRC9"
+              },
+              {
+                "name": "Hubtel.CheckoutAppPartners",
+                "id": "11f3bc94bc444bec85c31f92fd846323",
+                "url": "https://dev.azure.com/hubtel/Back-End/_git/Hubtel.CheckoutAppPartners",
+                "type": "Backend",
+                "description": "Repository for Hubtel.CheckoutAppPartners",
+                "sonarQubeKey": "Back-End_Hubtel.CheckoutAppPartners_AYePnka5qT59NbPRKZJh"
+              },
+              {
+                "name": "Hubtel-Partners-BackOffice-v2",
+                "id": "50ae663411c14713a1c5680c931514aa",
+                "url": "https://dev.azure.com/hubtel/Front-End/_git/Hubtel-Partners-BackOffice-v2",
+                "type": "Frontend",
+                "description": "Repository for Hubtel-Partners-BackOffice-v2",
+                "sonarQubeKey": "Front-End_Hubtel-Partners-BackOffice-v2_AYj6okl-o5AhFR4ORSbV"
+              },
+              {
+                "name": "Hubtel.BankPartners",
+                "id": "52509f59b2684e5a897a5a43a487c0f4",
+                "url": "https://dev.azure.com/hubtel/Back-End/_git/Hubtel.BankPartners",
+                "type": "Backend",
+                "description": "Repository for Internal Backoffices",
+                "sonarQubeKey": "Back-End_Hubtel.BankPartners_AZLXPgoPxdj97qG302L4"
+              }
+            ],
+            "id": "4277f07d9cc54e41ba43976b3b734037"
+          }
+        ],
+        "id": "43ada9691c4a4da1b53dd4c47125d52c",
+        "updatedAt": "2024-12-12T07:55:56.059017",
+        "createdAt": "2024-10-08T14:35:29.600266"
+      },
+      {
+        "groupName": "Directs To Consumers",
+        "supervisors": [
+          {
+            "name": "Alexander Acquah Osman",
+            "jobLevel": "Executive",
+            "domain": [
+              "Frontend"
+            ],
+            "email": "alexander.acquah@hubtel.com",
+            "id": "8a7483b724a8406d9b4303124ec5ff18"
+          },
+          {
+            "name": "Emmanuel Addo-Odame",
+            "jobLevel": "Engineering Manager",
+            "domain": [
+              "Frontend"
+            ],
+            "email": "eaodame@hubtel.com",
+            "id": "fbed082646be49e6a39d8aa79d2997b7"
+          }
+        ],
+        "productTeams": [
+          {
+            "name": "Quick Commerce Consumer",
+            "members": [
+              {
+                "name": "Prince Ackom",
+                "jobLevel": "Executive",
+                "domain": [
+                  "Backend"
+                ],
+                "email": "prince.ackom@hubtel.com",
+                "id": "39a1378ddd9b488a8939713a02a33210"
+              },
+              {
+                "name": "Edward Twumasi",
+                "jobLevel": "Team Lead",
+                "domain": [
+                  "Backend"
+                ],
+                "email": "edward.twumasi@hubtel.com",
+                "id": "ecc43c59815f4dbd892c75c859333d9a"
+              },
+              {
+                "name": "Emmanuel Akoto",
+                "jobLevel": "Team Lead",
+                "domain": [
+                  "Frontend"
+                ],
+                "email": "emmanuel.akoto@hubtel.com",
+                "id": "4e0560ce2a914457a7e1e9d5b2c866f4"
+              }
+            ],
+            "repositories": [
+              {
+                "name": "Hubtel.QuickCommerce",
+                "id": "aee95ba527cc4136bebf81be951b46d2",
+                "url": "https://dev.azure.com/hubtel/Back-End/_git/Hubtel.QuickCommerce",
+                "type": "Backend",
+                "description": "Repository for Hubtel.QuickCommerce",
+                "sonarQubeKey": "Back-End_Hubtel.QuickCommerce_AYveJqD0o5AhFR4ORmGg"
+              }
+            ],
+            "id": "8f00e1c24a754ea4b1f2f15ea6fa1d01"
+          },
+          {
+            "name": "Quick Commerce Riders",
+            "members": [
+              {
+                "name": "David Mensah",
+                "jobLevel": "Executive",
+                "domain": [
+                  "Backend"
+                ],
+                "email": "david.mensah@hubtel.com",
+                "id": "33a41468298c43388b805c048f04f341"
+              },
+              {
+                "name": "Theophilus Kofi Asante",
+                "jobLevel": "Executive",
+                "domain": [
+                  "Backend"
+                ],
+                "email": "theophilus.asante@hubtel.com",
+                "id": "687ca0e66b934b1188d27955a6b92f63"
+              },
+              {
+                "name": "Emmanuel Akoto",
+                "jobLevel": "Team Lead",
+                "domain": [
+                  "Frontend"
+                ],
+                "email": "emmanuel.akoto@hubtel.com",
+                "id": "4e0560ce2a914457a7e1e9d5b2c866f4"
+              },
+              {
+                "name": "Amoatwo, Julius",
+                "jobLevel": "Executive",
+                "domain": [
+                  "Frontend"
+                ],
+                "email": "julius.amoatwo@hubtel.com",
+                "id": "7fc4ecb8d34741f481dd1531ba4ad6a1"
+              }
+            ],
+            "repositories": [
+              {
+                "name": "Hubtel.Riders",
+                "id": "fd468e067064403cb1870caab587c449",
+                "url": "https://dev.azure.com/hubtel/Back-End/_git/Hubtel.Riders",
+                "type": "Backend",
+                "description": "Repository for Hubtel.Riders",
+                "sonarQubeKey": "Back-End_Hubtel.Riders_AYdNUCcHzm6gbKD3YpZX"
+              }
+            ],
+            "id": "823aea1bdd6b4e94ada33e8beb5cb5f0"
+          },
+          {
+            "name": "Quick Commerce Backoffice Apps (QC Sales)",
+            "members": [
+              {
+                "name": "Emmanuel Akoto",
+                "jobLevel": "Team Lead",
+                "domain": [
+                  "Frontend"
+                ],
+                "email": "emmanuel.akoto@hubtel.com",
+                "id": "4e0560ce2a914457a7e1e9d5b2c866f4"
+              },
+              {
+                "name": "Edward Twumasi",
+                "jobLevel": "Team Lead",
+                "domain": [
+                  "Backend"
+                ],
+                "email": "edward.twumasi@hubtel.com",
+                "id": "ecc43c59815f4dbd892c75c859333d9a"
+              },
+              {
+                "name": "Richard Stephen Antwi",
+                "jobLevel": "Executive",
+                "domain": [
+                  "Frontend"
+                ],
+                "email": "richard.antwi@hubtel.com",
+                "id": "2273e881cb574ccb9ba48d1bc6595364"
+              }
+            ],
+            "repositories": [
+              {
+                "name": "Hubtel-Backoffice-QC-Sales",
+                "id": "b884131c232446d88267fa9fba91f2d1",
+                "url": "https://dev.azure.com/hubtel/Front-End/_git/Hubtel-Backoffice-QC-Sales",
+                "type": "Frontend",
+                "description": "Repository for Hubtel-Backoffice-QC-Sales",
+                "sonarQubeKey": "Front-End_Hubtel-Backoffice-QC-Sales_AZB4p56H7a1Y6MlACGMZ"
+              },
+              {
+                "name": "Hubtel.QuickCommerce.SalesBackOffice",
+                "id": "9a0025ed7c884e618a313c952491d22d",
+                "url": "https://dev.azure.com/hubtel/Back-End/_git/Hubtel.QuickCommerce.SalesBackOffice",
+                "type": "Backend",
+                "description": "Repository for Hubtel.QuickCommerce.SalesBackOffice",
+                "sonarQubeKey": "Back-End_Hubtel.QuickCommerce.SalesBackOffice_AZB3eYQI7a1Y6MlACF_i"
+              }
+            ],
+            "id": "e2f8eb5fe9dc4fdebf232335c3606cb5"
+          },
+          {
+            "name": "Quick Commerce Retailers",
+            "members": [
+              {
+                "name": "Emmanuel Akoto",
+                "jobLevel": "Team Lead",
+                "domain": [
+                  "Frontend"
+                ],
+                "email": "emmanuel.akoto@hubtel.com",
+                "id": "4e0560ce2a914457a7e1e9d5b2c866f4"
+              },
+              {
+                "name": "Hamadou Mounkaila, Yassine",
+                "jobLevel": "Executive",
+                "domain": [
+                  "Backend"
+                ],
+                "email": "yassine.mounkaila@hubtel.com",
+                "id": "3fe853680ad243ffa4b87bae65b9e6d0"
+              },
+              {
+                "name": "Benjamin Aduo",
+                "jobLevel": "Executive",
+                "domain": [
+                  "Backend"
+                ],
+                "email": "benjamin.aduo@hubtel.com",
+                "id": "5659cd373f9144e5abffae902a17eb03"
+              }
+            ],
+            "repositories": [
+              {
+                "name": "Hubtel-Backoffice-Zones",
+                "id": "04c7f04d66794b08b9e1a4761ce4e0ab",
+                "url": "https://dev.azure.com/hubtel/Front-End/_git/Hubtel-Backoffice-Zones",
+                "type": "Frontend",
+                "description": "Repository for Hubtel-Backoffice-Zones",
+                "sonarQubeKey": "Front-End_Hubtel-Backoffice-Zones_AYhDj-60o5AhFR4ORNhX"
+              },
+              {
+                "name": "Hubtel-Backoffice-BrandContent",
+                "id": "77fffd3641774006ad3af68e58efa9e5",
+                "url": "https://dev.azure.com/hubtel/Front-End/_git/Hubtel-Backoffice-BrandContent",
+                "type": "Frontend",
+                "description": "Repository for Hubtel-Backoffice-BrandContent",
+                "sonarQubeKey": "Front-End_Hubtel-Backoffice-BrandContent_AYifEM4go5AhFR4ORPP5"
+              },
+              {
+                "name": "Hubtel.QuickCommerce.ProductAnalytics",
+                "id": "8cc45ca131b743eb837cc02bec346edd",
+                "url": "https://dev.azure.com/hubtel/Back-End/_git/Hubtel.QuickCommerce.ProductAnalytics",
+                "type": "Backend",
+                "description": "Repository for Hubtel.QuickCommerce.ProductAnalytics",
+                "sonarQubeKey": "Back-End_Hubtel.QuickCommerce.ProductAnalytics_AY3WkZqn7a1Y6MlABJbb"
+              },
+              {
+                "name": "Hubtel.QuickCommerce.BackOffice",
+                "id": "4eb491c8dd9b46998046a58c87d15dfa",
+                "url": "https://dev.azure.com/hubtel/Back-End/_git/Hubtel.QuickCommerce.BackOffice",
+                "type": "Backend",
+                "description": "Repository for Hubtel.QuickCommerce.BackOffice",
+                "sonarQubeKey": "Back-End_Hubtel.QuickCommerce.BackOffice_AY9eAFNe7a1Y6MlABwbr"
+              },
+              {
+                "name": "Hubtel.QuickCommerce.BrandPartners",
+                "id": "f9becc62fcd24b938984c0bdbefa7842",
+                "url": "https://dev.azure.com/hubtel/Back-End/_git/Hubtel.QuickCommerce.BrandPartners",
+                "type": "Backend",
+                "description": "Repository for Hubtel.QuickCommerce.BrandPartners",
+                "sonarQubeKey": "Back-End_Hubtel.QuickCommerce.BrandPartners_AZFbN1D67a1Y6MlACTUs"
+              },
+              {
+                "name": "Hubtel.Retail",
+                "id": "e9ae007605e74d93829f76b2fd3ea39f",
+                "url": "https://dev.azure.com/hubtel/Back-End/_git/Hubtel.Retail",
+                "type": "Backend",
+                "description": "Repository for Hubtel.Retail",
+                "sonarQubeKey": "Back-End_Hubtel.Retail_AYwsksTmKiUm6VulSEzL"
+              },
+              {
+                "name": "Hubtel-Retailer-Portal-Pharmacies",
+                "id": "0a26f27fa90d44d2afffd86418496372",
+                "url": "https://dev.azure.com/hubtel/Front-End/_git/Hubtel-Retailer-Portal-Pharmacies",
+                "type": "Frontend",
+                "description": "Repository for Hubtel-Retailer-Portal-Pharmacies",
+                "sonarQubeKey": "Front-End_Hubtel-Retailer-Portal-Pharmacies_AYhEKOZvo5AhFR4ORNkq"
+              },
+              {
+                "name": "HubtelRetailerPortalFood",
+                "id": "ef02d7bb9bc44db5ac2442e1f1e17f8a",
+                "url": "https://dev.azure.com/hubtel/Front-End/_git/HubtelRetailerPortalFood",
+                "type": "Frontend",
+                "description": "Repository for HubtelRetailerPortalFood",
+                "sonarQubeKey": "Front-End_HubtelRetailerPortalFood_AYhELvE6o5AhFR4ORNk5"
+              }
+            ],
+            "id": "ecb4e7a0f54b42d4b1694b60605a908d"
+          },
+          {
+            "name": "Consumer Messaging (SMS & Money), Send Money, Airtime, Data & Bills, Event Tickets, and Bet Top-ups",
+            "members": [
+              {
+                "name": "Sylvester Ogoe",
+                "jobLevel": "Executive",
+                "domain": [
+                  "Backend"
+                ],
+                "email": "sylvester.ogoe@hubtel.com",
+                "id": "15d54fa464ca4e4bb2bb7672a4d67207"
+              },
+              {
+                "name": "Osman Adamu",
+                "jobLevel": "Team Lead",
+                "domain": [
+                  "Backend"
+                ],
+                "email": "osman.adamu@hubtel.com",
+                "id": "5270928bc84f4ac2ac83f7c923737b01"
+              },
+              {
+                "name": "Alexander Acquah Osman",
+                "jobLevel": "Executive",
+                "domain": [
+                  "Frontend"
+                ],
+                "email": "alexander.acquah@hubtel.com",
+                "id": "8a7483b724a8406d9b4303124ec5ff18"
+              }
+            ],
+            "repositories": [
+              {
+                "name": "ProgrammableServiceReports",
+                "id": "ad65e65c22c7433baf5420a8d905e2b0",
+                "url": "https://dev.azure.com/hubtel/Inventory/_git/ProgrammableServiceReports",
+                "type": "Backend",
+                "description": "Repository for ProgrammableServiceReports",
+                "sonarQubeKey": "Inventory_ProgrammableServiceReports_AYj4angfo5AhFR4ORSX3"
+              },
+              {
+                "name": "Hubtel.InstantServices",
+                "id": "838957f587a24e8cbd61f4de1735060b",
+                "url": "https://dev.azure.com/hubtel/Back-End/_git/Hubtel.InstantServices",
+                "type": "Backend",
+                "description": "Repository for Hubtel.InstantServices",
+                "sonarQubeKey": "Back-End_Hubtel.InstantServices_AYePRy9r4kBny1LkLyie"
+              },
+              {
+                "name": "ProgrammableServices-ConsumerUssd",
+                "id": "2acb4b495edd4de8bc5d0c799cd34048",
+                "url": "https://dev.azure.com/hubtel/Inventory/_git/ProgrammableServices-ConsumerUssd",
+                "type": "Backend",
+                "description": "Repository for ProgrammableServices-ConsumerUssd",
+                "sonarQubeKey": "Inventory_ProgrammableServices-ConsumerUssd_AYj4Lcuro5AhFR4ORSWe"
+              },
+              {
+                "name": "Ussd-Consumer-Payment",
+                "id": "b0ab840648074939bee881f0a64c1df4",
+                "url": "https://dev.azure.com/hubtel/Consumer/_git/Ussd-Consumer-Payment",
+                "type": "Backend",
+                "description": "Repository for Ussd-Consumer-Payment",
+                "sonarQubeKey": "Consumer_Ussd-Consumer-Payment_AYj59_kwo5AhFR4ORSaS"
+              },
+              {
+                "name": "CloudNetwork",
+                "id": "81c64dc865b84dab8a5f458384d45626",
+                "url": "https://dev.azure.com/hubtel/Inventory/_git/CloudNetwork",
+                "type": "Backend",
+                "description": "Repository for CloudNetwork",
+                "sonarQubeKey": "Inventory_CloudNetwork_AYj4NxLHo5AhFR4ORSWx"
+              },
+              {
+                "name": "ProgrammableServices-GHQR",
+                "id": "2f18f861791c453facc128296309ffa8",
+                "url": "https://dev.azure.com/hubtel/Inventory/_git/ProgrammableServices-GHQR",
+                "type": "Backend",
+                "description": "Repository for ProgrammableServices-GHQR",
+                "sonarQubeKey": "Inventory_ProgrammableServices-GHQR_AYj4SZASo5AhFR4ORSXa"
+              },
+              {
+                "name": "Hubtel.ConsumerApp.Messaging",
+                "id": "cd7645b1c6ba4ca39fbdc6cce6d6fdd1",
+                "url": "https://dev.azure.com/hubtel/Consumer/_git/Hubtel.ConsumerApp.Messaging",
+                "type": "Backend",
+                "description": "Repository for Hubtel.ConsumerApp.Messaging",
+                "sonarQubeKey": "Consumer_Hubtel.ConsumerApp.Messaging_AYj54bIio5AhFR4ORSZq"
+              },
+              {
+                "name": "Hubtel.BettingAndLotto",
+                "id": "7ed42cfe9758472eabff0ceb083c2aa0",
+                "url": "https://dev.azure.com/hubtel/Back-End/_git/Hubtel.BettingAndLotto",
+                "type": "Backend",
+                "description": "Repository for Hubtel.BettingAndLotto",
+                "sonarQubeKey": "Back-End_Hubtel.BettingAndLotto_AYslIoTso5AhFR4ORerD"
+              },
+              {
+                "name": "Hubtel.InstantServices.Paylinks",
+                "id": "4c52e07ea1eb4a14911bdbe4c1a52f02",
+                "url": "https://dev.azure.com/hubtel/Back-End/_git/Hubtel.InstantServices.Paylinks",
+                "type": "Backend",
+                "description": "Repository for Hubtel.InstantServices.Paylinks",
+                "sonarQubeKey": "Back-End_Hubtel.InstantServices.Paylinks_AY4tIruI7a1Y6MlABPg1"
+              },
+              {
+                "name": "Hubtel.Events",
+                "id": "4201b8e871c2460b922872f8187e42a4",
+                "url": "https://dev.azure.com/hubtel/Back-End/_git/Hubtel.Events",
+                "type": "Backend",
+                "description": "Repository for Hubtel.Events",
+                "sonarQubeKey": "Back-End_Hubtel.Events_AYePWCux4kBny1LkLyi7"
+              },
+              {
+                "name": "Hubtel.com - Messaging",
+                "id": "234ca98416714b2e93357ef6644a74f1",
+                "url": "https://dev.azure.com/hubtel/Back-End/_git/Hubtel.com%20-%20Messaging",
+                "type": "Backend",
+                "description": "Repository for Hubtel.com - Messaging",
+                "sonarQubeKey": "Back-End_Hubtel.com_-_Messaging_AYq6eArOo5AhFR4ORcWK"
+              },
+              {
+                "name": "Hubtel.InstantServices.Paylinks.Consumer",
+                "id": "1ac478a386494e31b6775f1bd67e6268",
+                "url": "https://dev.azure.com/hubtel/Back-End/_git/Hubtel.InstantServices.Paylinks.Consumer",
+                "type": "Backend",
+                "description": "Repository for Hubtel.InstantServices.Paylinks.Consumer",
+                "sonarQubeKey": "Back-End_Hubtel.InstantServices.Paylinks.Consumer_AY3Bpxyd7a1Y6MlABHEu"
+              },
+              {
+                "name": "Hubtel.TakePayments",
+                "id": "4cccbd95925e46b69cd198eb8cd268cc",
+                "url": "https://dev.azure.com/hubtel/Back-End/_git/Hubtel.TakePayments",
+                "type": "Backend",
+                "description": "Repository for Hubtel.TakePayments",
+                "sonarQubeKey": "Back-End_Hubtel.TakePayments_AYePUOdn4kBny1LkLyip"
+              },
+              {
+                "name": "GeneralServices-CoreApps",
+                "id": "2b1e86c7dc6c4b89b4c34119f2ed48af",
+                "url": "https://dev.azure.com/hubtel/Inventory/_git/GeneralServices-CoreApps",
+                "type": "Backend",
+                "description": "Repository for GeneralServices-CoreApps",
+                "sonarQubeKey": "Inventory_GeneralServices-CoreApps_AYj4Q6EVo5AhFR4ORSXM"
+              },
+              {
+                "name": "Hubtel.ProgrammableServices.PaidPolls",
+                "id": "594f4ab3d71c4414a5d94e6f0e0c7431",
+                "url": "https://dev.azure.com/hubtel/Back-End/_git/Hubtel.ProgrammableServices.PaidPolls",
+                "type": "Backend",
+                "description": "Repository for Hubtel.ProgrammableServices.PaidPolls",
+                "sonarQubeKey": "Back-End_Hubtel.ProgrammableServices.PaidPolls_AY2jXqdq7a1Y6MlABFK3"
+              },
+              {
+                "name": "Hubtel.ConsumerServices.ProductAnalytics",
+                "id": "725ee39332ae43dcbb3d046d7c546df7",
+                "url": "https://dev.azure.com/hubtel/Back-End/_git/Hubtel.ConsumerServices.ProductAnalytics",
+                "type": "Backend",
+                "description": "Repository for Hubtel.ConsumerServices.ProductAnalytics",
+                "sonarQubeKey": "Back-End_Hubtel.ConsumerServices.ProductAnalytics_AZBU9gpE7a1Y6MlACEac"
+              },
+              {
+                "name": "Hubtel.InstantServices.Orders.Api",
+                "id": "7c336bd5840046cf8ef571f105a75161",
+                "url": "https://dev.azure.com/hubtel/Back-End/_git/Hubtel.InstantServices.Orders.Api",
+                "type": "Backend",
+                "description": "Consumer services repository",
+                "sonarQubeKey": "Back-End_Hubtel.InstantServices.Orders.Api_AZHlbPcw7a1Y6MlACbVa"
+              }
+            ],
+            "id": "316b8eefecf24a8ba7a1593b311b07f9"
+          }
+        ],
+        "id": "2ac57b9c3fbf4f5db6378bd1fde349a9",
+        "updatedAt": "2024-12-12T07:58:58.918965",
+        "createdAt": "2024-10-08T14:34:25.974487"
+      }
+    ],
+    "lowerBound": 7,
+    "upperBound": 11,
+    "pageIndex": 1,
+    "totalPages": 1,
+    "pageSize": 10,
+    "totalCount": 7
+  },
+  "subCode": "0",
+  "errors": null
+}
