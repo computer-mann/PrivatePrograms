@@ -8,7 +8,7 @@ namespace PackageSearch
 {
     internal class Program
     {
-
+        static string pat = "k6ghnkmb6uwfwxg3nov3ewyfwebdn4g4vmkfggcmsrxcosurrcza";
         static async Task Main(string[] args)
         {
             var stopwatch = new Stopwatch();
@@ -16,9 +16,7 @@ namespace PackageSearch
             var whitsonJsonPath = "D:\\Projects\\dotnet\\PrivatePrograms\\PackageSearch\\products.json";
             var jsonWhitson = JsonConvert.DeserializeObject<WhitsonJson>(File.ReadAllText(whitsonJsonPath));
             var team_and_group = BuildRepoNameToProductGroupAndTeam(jsonWhitson);
-            var organization = "hubtel"; // Azure DevOps organization name
-            var finalResult = new List<ExcelData>();
-            finalResult.Add(new ExcelData());
+            var organization = "hubtel"; // Azure DevOps organization 
             string[] projects =
                 [
                     "Back-End",
@@ -34,69 +32,13 @@ namespace PackageSearch
                     "Producer",
                     "Web-Apps"
                 ];
-            foreach (var project in projects)
-            {
-                var allRepos = await GetRepos(organization, project);
-                if (string.IsNullOrEmpty(allRepos))
-                {
-                    Console.WriteLine($"Cannot get the list of repos for project {project}");
-                    continue;
-                }
-                var repoList = JsonConvert.DeserializeObject<BackendRepoList>(allRepos);
-                foreach (var repo in repoList.Value)
-                {
-                    Console.WriteLine($"Searching for csproj files in {repo.Name}");
-
-                    var csProjFiles = await SearchForCsProjFiles(organization, project, repo.Id);
-                    foreach (var csProjFile in csProjFiles)
-                    {
-                        var projName = Path.GetFileNameWithoutExtension(csProjFile);
-                        var excelData = new ExcelData();
-                        excelData.Project = projName;
-                        excelData.Repository = repo.WebUrl;
-                        excelData.Status = "Not Started";
-                        team_and_group.TryGetValue(repo.Name, out Groupings value);
-                        var teamgroupPair = value ?? new Groupings();
-                        //productTeam.Name is product team //results.groupname is product group
-                        excelData.ProductGroup = teamgroupPair.ProductGroup.Replace(",","-");
-                        excelData.ProductTeam = teamgroupPair.ProductTeam.Replace(",", "-");
-                        if (projName.EndsWith(".Api", StringComparison.OrdinalIgnoreCase))
-                        {
-                            excelData.ProjectType = "Api";
-                        }
-                        if (projName.EndsWith(".Consumer", StringComparison.OrdinalIgnoreCase))
-                        {
-                            excelData.ProjectType = "Consumer";
-                        }
-                        if (projName.EndsWith(".Job", StringComparison.OrdinalIgnoreCase))
-                        {
-                            excelData.ProjectType = "Job";
-                        }
-                        finalResult.Add(excelData);
-                    }
-                }
-            }
-            //write to csv
-            using (var writer = new StreamWriter($"D:\\Projects\\dotnet\\PrivatePrograms\\PackageSearch\\newDataDogTracking_{DateTime.Now.Millisecond}.csv"))
-            {
-                var sb = new StringBuilder();
-                foreach (var datum in finalResult)
-                {
-                    sb.AppendLine($"{datum.Project},{datum.Repository},{datum.ProjectType},{datum.ProductGroup},{datum.ProductTeam},{datum.Status}");
-                }
-                writer.Write(sb.ToString());
-                writer.Flush();
-                writer.Close();
-            }
-
-            Console.WriteLine($"whote thing took {stopwatch.Elapsed.Seconds} seconds");
+            await GenerateCsvForSdksAndTheirCountInAllProjects();
         }
 
         private static async Task<string> GetRepos(string organization, string project)
         {
             try
             {
-                var pat = "";         //Personal Access Token
                 var url = $"https://dev.azure.com/{organization}/{project}/_apis/git/repositories?api-version=6.0";
                 var client = new HttpClient();
                 client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Basic", Convert.ToBase64String(Encoding.ASCII.GetBytes($":{pat}")));
@@ -113,7 +55,7 @@ namespace PackageSearch
         {
             try
             {
-                var pat = "";         //Personal Access Token
+                
                 var url = $"https://dev.azure.com/{organization}/{project}/_apis/git/repositories/{repo_id}/items?scopePath=/&recursionLevel=full&includeContent=true&api-version=6.0";
                 var client = new HttpClient();
                 client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Basic", Convert.ToBase64String(Encoding.ASCII.GetBytes($":{pat}")));
@@ -151,7 +93,7 @@ namespace PackageSearch
 
         private static async Task<string> GetCsProjFileContents(string organization, string project, string repo_id, string csprojFilePath)
         {
-            var pat = "";         //Personal Access Token
+            
             var url = $"https://dev.azure.com/{organization}/{project}/_apis/git/repositories/{repo_id}/items?path={csprojFilePath}&includeContent=true&api-version=6.0";
             var client = new HttpClient();
             client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Basic", Convert.ToBase64String(Encoding.ASCII.GetBytes($":{pat}")));
@@ -159,52 +101,84 @@ namespace PackageSearch
             return await client.GetStringAsync(url);
         }
 
-        private static async Task GenerateCsvForSdksAndTheirCountInAllProjects(string organization, string project)
+        private static async Task GenerateCsvForSdksAndTheirCountInAllProjects()
         {
-            var timer = new Stopwatch();
-            timer.Start();
+            var stopwatch = new Stopwatch();
+            stopwatch.Start();
+            var whitsonJsonPath = "D:\\Projects\\dotnet\\PrivatePrograms\\PackageSearch\\products.json";
+            var jsonWhitson = JsonConvert.DeserializeObject<WhitsonJson>(File.ReadAllText(whitsonJsonPath));
+            var team_and_group = BuildRepoNameToProductGroupAndTeam(jsonWhitson);
+            int totalProjectCount = 0;
+            var organization = "hubtel"; // Azure DevOps organization 
+            string[] projects =
+                [
+                    "Back-End",
+                    "Back-office",
+                    "Consumer",
+                    "AI Lab",
+                    "Gov",
+                    "Inventory",
+                    "Innovations",
+                    "Notifications",
+                    "Orders",
+                    "Payments",
+                    "Producer",
+                    "Web-Apps"
+                ];
             var sdkList = SdkList();
             var sdk_count = new Dictionary<string, int>();
             foreach (var sdk in sdkList)
             {
                 sdk_count[sdk] = 0;
             }
-            var stringResult = await GetRepos(organization, project);
-            var repoList = JsonConvert.DeserializeObject<BackendRepoList>(stringResult);
-            foreach (var repo in repoList.Value)
+            foreach (var project in projects)
             {
-                var csProjFiles = await SearchForCsProjFiles(organization, project, repo.Id);
-                foreach (var csProjFile in csProjFiles)
+                var allRepos = await GetRepos(organization, project);
+                if (string.IsNullOrEmpty(allRepos))
                 {
-                    var csProjContents = await GetCsProjFileContents(organization, project, repo.Id, csProjFile);
-                    foreach (var sdk in sdkList)
+                    Console.WriteLine($"Cannot get the list of repos for project {project}");
+                    continue;
+                }
+
+                var stringResult = await GetRepos(organization, project);
+                var repoList = JsonConvert.DeserializeObject<BackendRepoList>(stringResult);
+                foreach (var repo in repoList.Value)
+                {
+                    var csProjFiles = await SearchForCsProjFiles(organization, project, repo.Id);
+                    foreach (var csProjFile in csProjFiles)
                     {
-                        if (csProjContents.Contains(sdk))
+                        totalProjectCount += 1;
+                        var csProjContents = await GetCsProjFileContents(organization, project, repo.Id, csProjFile);
+                        foreach (var sdk in sdkList)
                         {
-                            sdk_count[sdk] += 1;
+                            if (csProjContents.Contains(sdk))
+                            {
+                                sdk_count[sdk] += 1;
+                            }
                         }
                     }
                 }
             }
-
             foreach (var kv in sdk_count)
             {
                 Console.WriteLine($"{kv.Key} : {kv.Value}");
 
             }
-
             //write to csv
             using (var writer = new StreamWriter($"D:\\Projects\\dotnet\\PrivatePrograms\\PackageSearch\\PackageSearchResult_{DateTime.Today.ToLongDateString()}.csv"))
-            {
-                writer.WriteLine("Package,Count");
-                foreach (var kv in sdk_count)
                 {
-                    writer.WriteLine($"{kv.Key},{kv.Value}");
+                    writer.WriteLine("Package,Count");
+                    foreach (var kv in sdk_count)
+                    {
+                        writer.WriteLine($"{kv.Key},{kv.Value}");
+                    }
+                    writer.Flush();
                 }
-                writer.Flush();
-            }
-            Console.WriteLine($"Time taken: {timer.Elapsed.TotalSeconds} seconds");
-            timer.Stop();
+               
+                stopwatch.Stop();
+            
+            Console.WriteLine($"Time taken: {stopwatch.Elapsed.TotalSeconds} seconds");
+            Console.WriteLine("Total project count " + totalProjectCount);
         }
 
         private static Dictionary<string, Groupings> BuildRepoNameToProductGroupAndTeam(WhitsonJson whitsonJson)
@@ -286,4 +260,64 @@ namespace PackageSearch
             }
 
  * 
+ */
+
+/*
+ * 
+ * foreach (var project in projects)
+            {
+                var allRepos = await GetRepos(organization, project);
+                if (string.IsNullOrEmpty(allRepos))
+                {
+                    Console.WriteLine($"Cannot get the list of repos for project {project}");
+                    continue;
+                }
+                var repoList = JsonConvert.DeserializeObject<BackendRepoList>(allRepos);
+                foreach (var repo in repoList.Value)
+                {
+                    Console.WriteLine($"Searching for csproj files in {repo.Name}");
+
+                    var csProjFiles = await SearchForCsProjFiles(organization, project, repo.Id);
+                    foreach (var csProjFile in csProjFiles)
+                    {
+                        var projName = Path.GetFileNameWithoutExtension(csProjFile);
+                        var excelData = new ExcelData();
+                        excelData.Project = projName;
+                        excelData.Repository = repo.WebUrl;
+                        excelData.Status = "Not Started";
+                        team_and_group.TryGetValue(repo.Name, out Groupings value);
+                        var teamgroupPair = value ?? new Groupings();
+                        //productTeam.Name is product team //results.groupname is product group
+                        excelData.ProductGroup = teamgroupPair.ProductGroup.Replace(",","-");
+                        excelData.ProductTeam = teamgroupPair.ProductTeam.Replace(",", "-");
+                        if (projName.EndsWith(".Api", StringComparison.OrdinalIgnoreCase))
+                        {
+                            excelData.ProjectType = "Api";
+                        }
+                        if (projName.EndsWith(".Consumer", StringComparison.OrdinalIgnoreCase))
+                        {
+                            excelData.ProjectType = "Consumer";
+                        }
+                        if (projName.EndsWith(".Job", StringComparison.OrdinalIgnoreCase))
+                        {
+                            excelData.ProjectType = "Job";
+                        }
+                        finalResult.Add(excelData);
+                    }
+                }
+            }
+            //write to csv
+            using (var writer = new StreamWriter($"D:\\Projects\\dotnet\\PrivatePrograms\\PackageSearch\\newDataDogTracking_{DateTime.Now.Millisecond}.csv"))
+            {
+                var sb = new StringBuilder();
+                foreach (var datum in finalResult)
+                {
+                    sb.AppendLine($"{datum.Project},{datum.Repository},{datum.ProjectType},{datum.ProductGroup},{datum.ProductTeam},{datum.Status}");
+                }
+                writer.Write(sb.ToString());
+                writer.Flush();
+                writer.Close();
+            }
+
+            Console.WriteLine($"whole thing took {stopwatch.Elapsed.Seconds} seconds");
  */
