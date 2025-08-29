@@ -9,7 +9,7 @@ namespace PackageSearch
 {
     internal class Program
     {
-        static string pat = "";
+        static string pat = "";//removed
         static async Task Main(string[] args)
         {
             //  await AzureTasks.ListRepositoriesInEachProjectName();
