@@ -20,9 +20,15 @@ namespace Base10ToBaseNConverter
 
             Console.WriteLine($"hashId: small number {hash} to big number: {bigHash} negative numbers does not support negative numbers");
 
+            var options = new SqidsOptions
+            {
+                Salt = "this is my custom salt"
+            };
+
             var sqids = new SqidsEncoder<int>(new()
             {
-                Alphabet = "qAp5PRBF09n8NX4gZ7raEQew2hY6moVSicuWklJbTKz1IUyOvCxDsLGHMdt3fj"
+                Alphabet = "qAp5PRBF09n8NX4gZ7raEQew2hY6moVSicuWklJbTKz1IUyOvCxDsLGHMdt3fj",
+                Sa
             });
             var sqid = sqids.Encode(number);
             var bigSqid = sqids.Encode(newBigNumber);
