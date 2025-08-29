@@ -2,7 +2,6 @@
 using System.Diagnostics;
 using System.IO;
 using System.Net.Http.Headers;
-using System.Security.Cryptography.X509Certificates;
 using System.Text;
 
 namespace PackageSearch
@@ -12,25 +11,28 @@ namespace PackageSearch
         static string pat = "";//removed
         static async Task Main(string[] args)
         {
-            //  await AzureTasks.ListRepositoriesInEachProjectName();
-            // await AzureTasks.CountProjectsUsingHubtelInternalSdks();
-            //await AzureTasks.TotalNumberOfDotnetProjectsAtHubtel();
-
-            //find runnable projects in each repo and write to csv
-            // in significant sectors
-            List<string> repoList = [
-                "https://dev.azure.com/hubtel/Gov/_git/ECG-Backend",
-                "https://dev.azure.com/hubtel/Back-End/_git/Hubtel.InstantServices.Insurance",
-                "https://dev.azure.com/hubtel/Back-End/_git/Hubtel.InsuranceMerchantPlatform",
-                "https://dev.azure.com/hubtel/Back-End/_git/Hubtel.MtnEcgProxy"
+            var stopwatch = new Stopwatch();
+            stopwatch.Start();
+            var whitsonJsonPath = "D:\\Projects\\dotnet\\PrivatePrograms\\PackageSearch\\products.json";
+            var jsonWhitson = JsonConvert.DeserializeObject<WhitsonJson>(File.ReadAllText(whitsonJsonPath));
+            var team_and_group = BuildRepoNameToProductGroupAndTeam(jsonWhitson);
+            var organization = "hubtel"; // Azure DevOps organization 
+            string[] projects =
+                [
+                    "Back-End",
+                    "Back-office",
+                    "Consumer",
+                    "AI Lab",
+                    "Gov",
+                    "Inventory",
+                    "Innovations",
+                    "Notifications",
+                    "Orders",
+                    "Payments",
+                    "Producer",
+                    "Web-Apps"
                 ];
-
-            // List<string> repoList = ["https://dev.azure.com/hubtel/Back-End/_git/Hubtel.Authentication","https://dev.azure.com/hubtel/Back-End/_git/HubtelSchedulingEngine"];
-            //await AzureTasks.CountAppSettingsFilesInRepos(repoList);
-            // await AzureTasks.CountHubtelSdksBelowVersionAGivenVersionNumber(repoList, 8);
-            // await AzureTasks.CreatingTheDependencyGraph(repoList);
-            //await AzureTasks.FindNumberOfProjectsBelowVersion8(repoList);
-            await AzureTasks.FindSdkUsageGroupedByVersion(repoList);
+            await GenerateCsvForSdksAndTheirCountInAllProjects();
         }
 
                     var csProjFiles = await SearchForCsProjFiles(organization, project, repo.Id);
@@ -329,28 +331,3 @@ namespace PackageSearch
 
             Console.WriteLine($"whole thing took {stopwatch.Elapsed.Seconds} seconds");
  */
-
-/**
- *   var stopwatch = new Stopwatch();
-            stopwatch.Start();
-            var whitsonJsonPath = "D:\\Projects\\dotnet\\PrivatePrograms\\PackageSearch\\products.json";
-            var jsonWhitson = JsonConvert.DeserializeObject<WhitsonJson>(File.ReadAllText(whitsonJsonPath));
-            var team_and_group = BuildRepoNameToProductGroupAndTeam(jsonWhitson);
-            var organization = "hubtel"; // Azure DevOps organization 
-            string[] projects =
-                [
-                    "Back-End",
-                    "Back-office",
-                    "Consumer",
-                    "AI Lab",
-                    "Gov",
-                    "Inventory",
-                    "Innovations",
-                    "Notifications",
-                    "Orders",
-                    "Payments",
-                    "Producer",
-                    "Web-Apps"
-                ];
-            await GenerateCsvForSdksAndTheirCountInAllProjects();
- **/
